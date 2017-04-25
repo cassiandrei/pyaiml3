@@ -11,6 +11,13 @@
 <meta name="language" content="en"/>
 
 <category>
+<pattern>TESTE AQUI</pattern>
+<template>
+TESTE
+</template>
+</category>
+
+<category>
 <pattern>* BYE</pattern>
 <template>
 <srai>BYE</srai>
