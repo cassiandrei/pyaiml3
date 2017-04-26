@@ -4,6 +4,10 @@
 
 <!-- TAMBEM -->
 <category>
+<pattern>TAMBEM</pattern>
+<template>Que coincidencia!</template>
+</category>
+<category>
 <pattern>* TAMBEM</pattern>
 <template><srai>TAMBEM</srai></template>
 </category>
