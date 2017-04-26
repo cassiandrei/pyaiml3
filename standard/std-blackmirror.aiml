@@ -160,12 +160,32 @@ Black Mirror e uma serie de drama e sci-fi.
 </category>
 
 <category>
+<pattern>CRIADOR</pattern>
+<template>O criador de Black Mirror eh Charlie Brooker. </template>
+</category>
+
+<category>
+<pattern>_ CRIADOR _</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
+<pattern>_ CRIADOR</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
 <pattern>TEMPORADAS</pattern>
 <template>Black Mirror tem 4 temporadas.</template>
 </category>
 
 <category>
 <pattern>_ TEMPORADAS _</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
+<pattern>_ TEMPORADAS</pattern>
 <template><srai>TEMPORADAS</srai></template>
 </category>
 
