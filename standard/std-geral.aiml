@@ -63,9 +63,9 @@
 	<li value="2">Voce ja assistiu friends?<think><set name = "topic">friends</set></think> <think><set name="lastgeral">3</set></think></li>
 	<li value="3">Voce ja assistiu Breaking Bad?<think><set name = "topic">breaking bad</set></think> <think><set name="lastgeral">4</set></think></li>
 	<li value="4">Voce ja assistiu Sherlock?<think><set name = "topic">sherlock</set></think> <think><set name="lastgeral">5</set></think></li>
-	<li value="5">Voce ja assistiu Vikings?<think><set name = "topic">vikings</set></think> <think><set name="lastgeral">6</set></think></li>
-	<li>Voce ja assistiu Black Mirror?<think><set name = "topic">black mirror</set></think> </li>			
+	<li value="5">Voce ja assistiu Vikings?<think><set name = "topic">vikings</set></think> <think><set name="lastgeral">6</set></think></li>			
 	<li value="6">E qual a sua serie favorita? <think><set name="lastgeral">1</set></think></li>
+	<li>Voce ja assistiu Black Mirror?<think><set name = "topic">black mirror</set></think> </li>
  </condition>
 </template>
 </category>
