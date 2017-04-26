@@ -2,54 +2,54 @@
 
 <aiml version="1.0">
 
-<topic name="VIKINGS">
+<topic name="BLACK MIRROR">
 
 <category>
 <pattern>SIM</pattern>
-<that>* JA ASSISTIU VIKINGS</that>
-<template>Eh muito boa, nao eh mesmo?</template>
+<that>* JA ASSISTIU BLACK MIRROR</that>
+<template>Eu tambem. Eh muito boa, nao?</template>
 </category>
 
 <category>
 <pattern>NAO</pattern>
-<that>* JA ASSISTIU VIKINGS</that>
-<template>Assista agora! <think><set name="topic"> </set></think><srai>SERIE</srai></template>
+<that>* JA ASSISTIU BLACK MIRROR</that>
+<template>Por que nao?. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>* JA ASSISTIU VIKINGS</that>
-<template>Vamos falar sobre a serie?</template>
+<that>* JA ASSISTIU BLACK MIRROR</that>
+<template>Quer falar sobre a serie?</template>
 </category>
 
 <category>
 <pattern>SIM</pattern>
 <that>VAMOS FALAR SOBRE A SERIE</that>
-<template>O que te chama a atencao nela?</template>
+<template>Qual voce considera o ponto alto dela?</template>
 </category>
 
 <category>
 <pattern>NAO</pattern>
 <that>VAMOS FALAR SOBRE A SERIE</that>
-<template>Sobre o que quer falar?</template>
+<template>Sobre o que quer falar entao?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
 <that>VAMOS FALAR SOBRE A SERIE</that>
-<template>Gosta de series historicas?</template>
+<template>Gosta de series que te fazem pensar?</template>
 </category>
 
 <category>
 <pattern>_ GENERO *</pattern>
 <template>
-Vikings e uma serie de acao e historia.
+Black Mirror e uma serie de drama e sci-fi.
 </template>
 </category>
 
 <category>
 <pattern>SINOPSE</pattern>
-<template>A serie conta a historia de vikings atraves das jornadas de Ragnar Lothbrok.</template>
+<template>A serie conta varias historias que mostram problemas da humanidade e tecnologia.</template>
 </category>
 
 <category>
@@ -84,27 +84,27 @@ Vikings e uma serie de acao e historia.
 
 <category>
 <pattern>GENERO</pattern>
-<template>Vikings eh uma serie de acao historica.</template>
+<template>Black Mirror eh uma serie de drama e sci-fi.</template>
 </category>
 
 <category>
-<pattern>* GENERO *</pattern>
+<pattern>_ GENERO _</pattern>
 <template><srai>GENERO</srai></template>
 </category>
 
 <category>
-<pattern>GENERO *</pattern>
+<pattern>GENERO _</pattern>
 <template><srai>GENERO</srai></template>
 </category>
 
 <category>
-<pattern>* GENERO</pattern>
+<pattern>_ GENERO</pattern>
 <template><srai>GENERO</srai></template>
 </category>
 
 <category>
 <pattern>CANAL</pattern>
-<template>A serie passa no canal History.</template>
+<template>A emissora original da serie eh Channel 4. Agora eh mais popular na Netflix.</template>
 </category>
 
 <category>
@@ -125,8 +125,8 @@ Vikings e uma serie de acao e historia.
 <category>
 <pattern>*</pattern>
 <template><random>
-<li>Voce acha a serie muito violenta?</li>
-<li>Sabe quem criou a serie?</li>
+<li>Qual eh seu episodio favorito?</li>
+<li>O nome do criador da serie eh Charlie Brooker. O cara eh um genio!</li>
 <li>De que outras series voce gosta?</li>
 </random></template>
 </category>
@@ -138,60 +138,20 @@ Vikings e uma serie de acao e historia.
 </category>
 
 <category>
-<pattern>MICHAEL HIRST</pattern>
-<that>SABE QUEM CRIOU A SERIE</that>
-<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
-</category>
-
-<category>
-<pattern>MICHAEL HIRST *</pattern>
-<that>SABE QUEM CRIOU A SERIE</that>
-<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
-</category>
-
-<category>
-<pattern>* MICHAEL HIRST</pattern>
-<that>SABE QUEM CRIOU A SERIE</that>
-<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
-</category>
-
-<category>
-<pattern>* MICHAEL HIRST *</pattern>
-<that>SABE QUEM CRIOU A SERIE</that>
-<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
+<pattern>* QUE *</pattern>
+<that>QUAL EH SEU EPISODIO FAVORITO</that>
+<template>Acho esse episodio otimo. O que voce mais gostou nele?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>SABE QUEM CRIOU A SERIE</that>
-<template>Michael Hirst criou Vikings. </template>
-</category>
-
-
-<category>
-<pattern>PERSONAGEM</pattern>
-<template>Meu personagem favorito eh o Floki. E o seu?</template>
-</category>
-
-
-<category>
-<pattern>_ PERSONAGEM FAVORITO _</pattern>
-<template><srai>PERSONAGEM</srai></template>
-</category>
-
-<category>
-<pattern>_ PERSONAGEM FAVORITO</pattern>
-<template><srai>PERSONAGEM</srai></template>
-</category>
-
-<category>
-<pattern>PERSONAGEM FAVORITO _</pattern>
-<template><srai>PERSONAGEM</srai></template>
+<that>QUAL EH SEU EPISODIO FAVORITO</that>
+<template>'<star/>?'</template>
 </category>
 
 <category>
 <pattern>ATORES</pattern>
-<template>Alguns atores de Vikings sao Gustaf Skarsgård, Katheryn Winnick, Alexander Ludwig.</template>
+<template>Muitos atores diferentes estao na serie, alguns ja bem famosos.</template>
 </category>
 
 <category>
@@ -201,7 +161,7 @@ Vikings e uma serie de acao e historia.
 
 <category>
 <pattern>TEMPORADAS</pattern>
-<template>Vikings tem 5 temporadas.</template>
+<template>Black Mirror tem 4 temporadas.</template>
 </category>
 
 <category>
@@ -214,7 +174,7 @@ Vikings e uma serie de acao e historia.
 <template><random>
 <li>Eu adoro o <star/></li>
 <li>Quem nao gosta do <star/>?</li>
-<li>Por que? Voce não gosta do <star/></li>
+<li>Por que? Voce não gosta do <star/>?</li>
 </random></template>
 </category>
 

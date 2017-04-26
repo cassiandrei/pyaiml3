@@ -136,7 +136,7 @@ Breaking Bad e uma serie de drama.
 <category>
 <pattern>*</pattern>
 <that>DE QUE OUTRAS SERIES VOCE GOSTA</that>
-<template><star/></template>
+<template><srai><star/> MUDATOPICO</srai></template>
 </category>
 
 <category>

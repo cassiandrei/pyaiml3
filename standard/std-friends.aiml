@@ -50,6 +50,26 @@
 -->
 
 <category>
+<pattern>*</pattern>
+<template><random>
+<li>Voce ja chorou de rir vendo Friends?</li>
+<li>De que outras series voce gosta?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>VOCE JA CHOROU DE RIR VENDO FRIENDS</that>
+<template>Eu dou risada so de lembrar de alguns momentos hahaha</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>DE QUE OUTRAS SERIES VOCE GOSTA</that>
+<template><srai><star/> MUDATOPICO</srai></template>
+</category>
+
+<category>
 	<pattern>CONHECE * FRIENDS</pattern>
 	<template>
 		Conheco sim, adoro essa serie, o que voce sabe sobre ela?
