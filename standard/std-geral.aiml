@@ -2,15 +2,6 @@
 <aiml version="1.0">
 
    <category>
-      <pattern> OLA * </pattern>
-      <template>
-         <random>
-		<li><think><set name="topic">geral</set></think>Ola, qual o seu nome?</li>
-	 </random>
-      </template>
-   </category>
-
-   <category>
       <pattern> OLA </pattern>
       <template>
          <random>
@@ -18,8 +9,6 @@
 	 </random>
       </template>
    </category>
-
-<topic name="GERAL">
 
 <!-- THATS -->
 <category>
@@ -80,5 +69,4 @@
 	<template>Eu nao conheco essa serie! <think><set name = "topic">none</set></think><srai>INTRO</srai></template>
 </category>
 
-</topic>
 </aiml>

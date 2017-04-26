@@ -6,19 +6,19 @@
 
 <category>
 <pattern>SIM</pattern>
-<that>JA ASSISTIU BREAKING BAD</that>
+<that>* JA ASSISTIU BREAKING BAD</that>
 <template>Eh muito boa, nao eh mesmo?</template>
 </category>
 
 <category>
 <pattern>NAO</pattern>
-<that>JA ASSISTIU BREAKING BAD</that>
-<template>Assista!</template>
+<that>* JA ASSISTIU BREAKING BAD</that>
+<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>JA ASSISTIU BREAKING BAD</that>
+<that>* JA ASSISTIU BREAKING BAD</that>
 <template>Vamos falar sobre a serie?</template>
 </category>
 

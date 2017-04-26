@@ -2,6 +2,29 @@
 
 <aiml version="1.0">
 
+<!-- OLA -->
+<category>
+<pattern> OLA *</pattern>
+<template>
+<srai>OLA<srai>
+</template>
+</category>
+
+<category>
+<pattern> OI *</pattern>
+<template>
+<srai>OLA<srai>
+</template>
+</category>
+
+<category>
+<pattern> OI</pattern>
+<template>
+<srai>OLA<srai>
+</template>
+</category>
+
+
 <!-- DEXTER -->
 <category>
 <pattern>* DEXTER *</pattern>

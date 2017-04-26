@@ -6,19 +6,19 @@
 
 <category>
 <pattern>SIM</pattern>
-<that>JA ASSISTIU SHERLOCK</that>
+<that>* JA ASSISTIU SHERLOCK</that>
 <template>Eu tambem assisti. O que achou?</template>
 </category>
 
 <category>
 <pattern>NAO</pattern>
-<that>JA ASSISTIU SHERLOCK</that>
-<template>Recomendo assistir, eh muito legal.</template>
+<that>* JA ASSISTIU SHERLOCK</that>
+<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>JA ASSISTIU SHERLOCK</that>
+<that>* JA ASSISTIU SHERLOCK</that>
 <template>Vamos falar sobre a serie?</template>
 </category>
 

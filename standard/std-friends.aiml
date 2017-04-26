@@ -5,19 +5,19 @@
 
 <category>
 <pattern>SIM</pattern>
-<that>JA ASSISTIU FRIENDS</that>
+<that>* JA ASSISTIU FRIENDS</that>
 <template>Eu tambem ja vi. Gostou da serie?</template>
 </category>
 
 <category>
 <pattern>NAO</pattern>
-<that>JA ASSISTIU FRIENDS</that>
-<template>Eu tambem. O que achou?</template>
+<that>* JA ASSISTIU FRIENDS</that>
+<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>JA ASSISTIU FRIENDS</that>
+<that>* JA ASSISTIU FRIENDS</that>
 <template>Vamos falar sobre a serie?</template>
 </category>
 
