@@ -65,6 +65,21 @@
 <template>Por que <star/>?<think><set name="topic"><star/></set></think></template>
 </category>
 
+<category>
+<pattern>* NETFLIX *</pattern>
+<template>Eu assisto muitas series na Netflix.</template>
+</category>
+
+<category>
+<pattern>* NETFLIX</pattern>
+<template>Eu assisto muitas series na Netflix.</template>
+</category>
+
+<category>
+<pattern>* DEXTER *</pattern>
+<template><think><set name="topic">dexter</set></think><srai><star index="1"/> Dexter</srai></template>
+</category>
+
 
 <!-- THAT PERGUNTAS DO ROBOT -->
 <category>
@@ -91,6 +106,13 @@
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template> YOU ARE AMAZING!<think><set name = "topic">sherlock</set></think> Essa tambem eh a minha favorita! Pergunte algo para voce ver!</template>
 </category>
+
+<category>
+	<pattern>VIKINGS</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>Eu e meus amigos adoramos Vikings!<think><set name = "topic">vikings</set></think></template>
+</category>
+
 
 <category>
 	<pattern>*</pattern>
