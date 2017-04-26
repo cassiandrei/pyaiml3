@@ -6,19 +6,42 @@
       <pattern> OLA * </pattern>
       <template>
          <random>
-		<li>Ola, tudo bem?</li>
-		<li>Ola, qual sua seria favorita?</li>
-		<li>Ola, ja assistiu 13 reasons why?</li>
-		<li>Ola sou o Alfredo, qual o seu nome? </li>
+		<li>Ola, qual o seu nome?</li>
 	 </random>
       </template>
    </category>
-	
-   <category>
-      <pattern> * </pattern>
-      <template>
-         Não entendi, 
-      </template>
-   </category>
+
+<!-- THATS -->
+<category>
+	<pattern>*</pattern>
+	<that>OLA QUAL O SEU NOME</that>
+	<template><think><set name = "username"><star/></set></think> Hey <get name= "username"/>! <srai>SERIE</srai></template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<that></that>
+	<template></template>
+</category>
+
+
+<!-- PERGUNTAS DO ROBOT SOBRE SERIE -->
+<category>
+<pattern> SERIE </pattern>
+<template>
+ <random>
+	<li>Ja assistiu <set name = "topic">dexter</set>?</li>
+	<li>Ja assistiu <set name = "topic">friends</set>?</li>	
+	<li>Qual a sua serie favorita?</li>
+ </random>
+</template>
+</category>
+
+<!-- THAT PERGUNTAS DO ROBOT -->
+<category>
+	<pattern>*</pattern>
+	<that>Qual a sua serie favorita?</that>
+	<template><think><set name = "seriefavorita"><star/></set></think></template>
+</category>
 
 </aiml>
