@@ -37,6 +37,17 @@
 </template>
 </category>
 
+<category>
+	<pattern>QUAL A SUA SERIE FAVORITA</pattern>
+	<template></template>
+</category>
+
+<category>
+<pattern>* MUDATOPICO</pattern>
+<template>Por que <star/>?<think><set name="topic"><star/></set></think></template>
+</category>
+
+
 <!-- THAT PERGUNTAS DO ROBOT -->
 <category>
 	<pattern>DEXTER</pattern>
