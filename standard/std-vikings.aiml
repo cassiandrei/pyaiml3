@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<topic name="VIKINGS">
+
+<category>
+<pattern>SIM</pattern>
+<that>* JA ASSISTIU VIKINGS</that>
+<template>Eh muito boa, nao eh mesmo?</template>
+</category>
+
+<category>
+<pattern>NAO</pattern>
+<that>* JA ASSISTIU VIKINGS</that>
+<template>Assista agora! <think><set name="topic"> </set></think><srai>SERIE</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>* JA ASSISTIU VIKINGS</that>
+<template>Vamos falar sobre a serie?</template>
+</category>
+
+<category>
+<pattern>SIM</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>O que te chama a atencao nela?</template>
+</category>
+
+<category>
+<pattern>NAO</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>Sobre o que quer falar?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>Gosta de series historicas?</template>
+</category>
+
+<category>
+<pattern>_ GENERO *</pattern>
+<template>
+Vikings e uma serie de acao e historia.
+</template>
+</category>
+
+<category>
+<pattern>SINOPSE</pattern>
+<template>A serie conta a historia de vikings atraves das jornadas de Ragnar Lothbrok.</template>
+</category>
+
+<category>
+<pattern>_ SINOPSE</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>SINOPSE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SINOPSE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SOBRE</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>SOBRE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SOBRE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>GENERO</pattern>
+<template>Vikings eh uma serie de acao historica.</template>
+</category>
+
+<category>
+<pattern>* GENERO *</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>GENERO *</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>* GENERO</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>CANAL</pattern>
+<template>A serie passa no canal History.</template>
+</category>
+
+<category>
+<pattern>ONDE * PASSA</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>_ CANAL _</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>_ CANAL</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>Voce acha a serie muito violenta?</li>
+<li>Sabe quem criou a serie?</li>
+<li>De que outras series voce gosta?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>DE QUE OUTRAS SERIES VOCE GOSTA</that>
+<template><star/></template>
+</category>
+
+<category>
+<pattern>MICHAEL HIRST</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>MICHAEL HIRST *</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>* MICHAEL HIRST</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>* MICHAEL HIRST *</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Michael Hirst criou Vikings. </template>
+</category>
+
+
+<category>
+<pattern>PERSONAGEM</pattern>
+<template>Meu personagem favorito eh o Floki. E o seu?</template>
+</category>
+
+
+<category>
+<pattern>_ PERSONAGEM FAVORITO _</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>_ PERSONAGEM FAVORITO</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>PERSONAGEM FAVORITO _</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>ATORES</pattern>
+<template>Alguns atores de Vikings sao Gustaf Skarsgård, Katheryn Winnick, Alexander Ludwig.</template>
+</category>
+
+<category>
+<pattern>_ ATORES _</pattern>
+<template><srai>ATORES</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORADAS</pattern>
+<template>Vikings tem 5 temporadas.</template>
+</category>
+
+<category>
+<pattern>_ TEMPORADAS _</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
+<pattern>GOSTA *</pattern>
+<template><random>
+<li>Eu adoro o <star/></li>
+<li>Quem nao gosta do <star/>?</li>
+<li>Por que? Voce não gosta do <star/></li>
+</random></template>
+</category>
+
+<category>
+<pattern>* GOSTA DO *</pattern>
+<template><srai>GOSTA <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>* GOSTA DA *</pattern>
+<template><srai>GOSTA <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>TU *</pattern>
+<template><srai>VOCE <star/></srai></template>
+</category>
+
+
+</topic>
+
+</aiml>
