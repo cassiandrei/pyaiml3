@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<topic name="SHERLOCK">
+
+<category>
+<pattern>SIM</pattern>
+<that>JA ASSISTIU SHERLOCK</that>
+<template>Eu tambem assisti. O que achou?</template>
+</category>
+
+<category>
+<pattern>NAO</pattern>
+<that>JA ASSISTIU SHERLOCK</that>
+<template>Recomendo assistir, eh muito legal.</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>JA ASSISTIU SHERLOCK</that>
+<template>Vamos falar sobre a serie?</template>
+</category>
+
+<category>
+<pattern>SIM</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>O que te chama a atencao nela?</template>
+</category>
+
+<category>
+<pattern>NAO</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>Sobre o que quer falar?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>Gosta de series dramaticas?</template>
+</category>
+
+<category>
+<pattern>_ GENERO *</pattern>
+<template>
+Sherlock e uma serie de drama.
+</template>
+</category>
+
+<category>
+<pattern>SINOPSE</pattern>
+<template>A serie eh sobre o famoso detetive Sherlock Holmes.</template>
+</category>
+
+<category>
+<pattern>_ SINOPSE</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>SINOPSE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SINOPSE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SOBRE</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>SOBRE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SOBRE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>GENERO</pattern>
+<template>SHERLOCK eh uma serie de misterio.</template>
+</category>
+
+<category>
+<pattern>_ GENERO _</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>GENERO _</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>_ GENERO</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>CANAL</pattern>
+<template>A serie passa no canal BBC.</template>
+</category>
+
+<category>
+<pattern>ONDE * PASSA</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>_ CANAL _</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>_ CANAL</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>Quem eh o parceiro fiel do Sherlock?</li>
+<li>Qual o nome da mafia que leva a marca de tong nos pes?</li>
+<li>Sabe quem eh o criador da serie?</li>
+<li>De que outras series voce gosta?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>DE QUE OUTRAS SERIES VOCE GOSTA</that>
+<template><star/></template>
+</category>
+
+<category>
+<pattern>MARK GATISS</pattern>
+<that>SABE QUEM EH O CRIADOR DA SERIE</that>
+<template>Acertou! O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>MARK GATISS *</pattern>
+<that>SABE QUEM EH O CRIADOR DA SERIE</that>
+<template>Acertou! O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>* MARK GATISS</pattern>
+<that>SABE QUEM EH O CRIADOR DA SERIE</that>
+<template>Acertou! O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>* MARK GATISS *</pattern>
+<that>SABE QUEM EH O CRIADOR DA SERIE</that>
+<template>Acertou! O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>SABE QUEM EH O CRIADOR DA SERIE</that>
+<template>Mark Gatiss criou a serie.</template>
+</category>
+
+<category>
+<pattern>BLACK LOTUS</pattern>
+<that>QUAL O NOME DA MAFIA QUE LEVA A MARCA DE TONG NOS PES</that>
+<template>Voce sabe muito sobre Sherlock!</template>
+</category>
+
+<category>
+<pattern>* BLACK LOTUS</pattern>
+<that>QUAL O NOME DA MAFIA QUE LEVA A MARCA DE TONG NOS PES</that>
+<template>Voce sabe muito sobre Sherlock!</template>
+</category>
+
+<category>
+<pattern>BLACK LOTUS *</pattern>
+<that>QUAL O NOME DA MAFIA QUE LEVA A MARCA DE TONG NOS PES</that>
+<template>Voce sabe muito sobre Sherlock!</template>
+</category>
+
+<category>
+<pattern> * BLACK LOTUS *</pattern>
+<that>QUAL O NOME DA MAFIA QUE LEVA A MARCA DE TONG NOS PES</that>
+<template>Voce sabe muito sobre Sherlock!</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>QUAL O NOME DA MAFIA QUE LEVA A MARCA DE TONG NOS PES</that>
+<template>Black Lotus. Essa pergunta era dificil!</template>
+</category>
+
+<category>
+<pattern>JOHN WATSON</pattern>
+<that>QUEM EH O PARCEIRO FIEL DE SHERLOCK</that>
+<template>Isso mesmo.</template>
+</category>
+
+<category>
+<pattern>* JOHN WATSON</pattern>
+<that>QUEM EH O PARCEIRO FIEL DE SHERLOCK</that>
+<template>Isso mesmo.</template>
+</category>
+
+<category>
+<pattern>JOHN WATSON *</pattern>
+<that>QUEM EH O PARCEIRO FIEL DE SHERLOCK</that>
+<template>Isso mesmo.</template>
+</category>
+
+<category>
+<pattern>* JOHN WATSON *</pattern>
+<that>QUEM EH O PARCEIRO FIEL DE SHERLOCK</that>
+<template>Isso mesmo.</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>QUEM EH O PARCEIRO FIEL DE SHERLOCK</that>
+<template>O parceiro dele eh John Watson.</template>
+</category>
+
+<category>
+<pattern>PERSONAGEM</pattern>
+<template>Meu personagem favorito da serie eh o vilao Moriarty. Voce tem algum favorito?</template>
+</category>
+
+<category>
+<pattern>_ PERSONAGEM FAVORITO _</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>_ PERSONAGEM FAVORITO</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>PERSONAGEM FAVORITO _</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>ATORES</pattern>
+<template>Alguns atores da serie sao Benedict Cumberbatch, Martin Freeman, Una Stubbs. </template>
+</category>
+
+<category>
+<pattern>_ ATORES _</pattern>
+<template><srai>ATORES</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORADAS</pattern>
+<template>Sherlock tem 4 temporadas.</template>
+</category>
+
+<category>
+<pattern>_ TEMPORADAS _</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
+<pattern>GOSTA *</pattern>
+<template><random>
+<li>Eu adoro o <star/></li>
+<li>Quem nao gosta do <star/>?</li>
+<li>Por que? Voce não gosta do <star/>?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>* GOSTA DO *</pattern>
+<template><srai>GOSTA <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>* GOSTA DA *</pattern>
+<template><srai>GOSTA <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>TU *</pattern>
+<template><srai>VOCE <star/></srai></template>
+</category>
+
+
+</topic>
+
+</aiml>
