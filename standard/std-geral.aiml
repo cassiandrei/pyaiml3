@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<topic name="GERAL">
+
    <category>
       <pattern> OLA * </pattern>
       <template>
          <random>
-		<li>Ola, qual o seu nome?</li>
+		<li><think><set name="topic">geral</set></think>Ola, qual o seu nome?</li>
 	 </random>
       </template>
    </category>
+
+   <category>
+      <pattern> OLA </pattern>
+      <template>
+         <random>
+		<li><think><set name="topic">geral</set></think>Ola, qual o seu nome?</li>
+	 </random>
+      </template>
+   </category>
+
+<topic name="GERAL">
 
 <!-- THATS -->
 <category>
@@ -60,7 +71,7 @@
 <category>
 	<pattern>SHERLOCK</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
-	<template> YOU ARE AMAZING!<think><set name = "topic">breaking bad</set></think> Essa tambem eh a minha favorita! Pergunte algo para voce ver!</template>
+	<template> YOU ARE AMAZING!<think><set name = "topic">sherlock</set></think> Essa tambem eh a minha favorita! Pergunte algo para voce ver!</template>
 </category>
 
 <category>
