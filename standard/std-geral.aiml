@@ -9,8 +9,8 @@
 	<li>
 		<random>
 			<li>Ola <get name="username"/>! <srai>SERIE</srai></li>
+			<li>Ola <get name="username"/>! Sou o Alfredo, vamos falar de series?</li>
 			<li><get name="username"/>, <srai>aaa</srai></li>
-			
 		</random>
 	</li>
 </condition>

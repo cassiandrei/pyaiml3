@@ -13,7 +13,7 @@
 <category>
 <pattern>NAO</pattern>
 <that>* JA ASSISTIU BREAKING BAD</that>
-<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
+<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think></template>
 </category>
 
 <category>
