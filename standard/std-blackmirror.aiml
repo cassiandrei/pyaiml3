@@ -125,9 +125,9 @@ Black Mirror e uma serie de drama e sci-fi.
 <category>
 <pattern>*</pattern>
 <template><condition name="lastblack">
-<li value="1">Qual eh seu episodio favorito? <think><set name="lastgeral">2</set></think></li>
+<li value="1">Qual eh seu episodio favorito? <think><set name="lastblack">2</set></think></li>
 <li>O nome do criador da serie eh Charlie Brooker. O cara eh um genio!</li>
-<li value="2">De que outras series voce gosta? <think><set name="lastgeral">1</set></think></li>
+<li value="2">De que outras series voce gosta? <think><set name="lastblack">1</set></think></li>
 </condition></template>
 </category>
 
@@ -136,7 +136,7 @@ Black Mirror e uma serie de drama e sci-fi.
 <that>DE QUE OUTRAS SERIES VOCE GOSTA</that>
 <template><srai><star/> MUDATOPICO</srai></template>
 </category>
-
+	
 <category>
 <pattern>* QUE *</pattern>
 <that>QUAL EH SEU EPISODIO FAVORITO</that>

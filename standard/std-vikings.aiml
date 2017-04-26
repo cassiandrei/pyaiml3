@@ -124,11 +124,11 @@ Vikings e uma serie de acao e historia.
 
 <category>
 <pattern>*</pattern>
-<template><random>
-<li>Voce acha a serie muito violenta?</li>
+<template><condition name="lastvikings">
+<li value="1">Voce acha a serie muito violenta?<think><set name="lastvikings">2</set></think></li>
 <li>Sabe quem criou a serie?</li>
-<li>De que outras series voce gosta?</li>
-</random></template>
+<li value="2">De que outras series voce gosta?<think><set name="lastvikings">1</set></think></li>
+</condition></template>
 </category>
 
 <category>
