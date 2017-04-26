@@ -41,7 +41,10 @@
  <random>
 	<li>Ja assistiu dexter?<think><set name = "topic">dexter</set></think></li>
 	<li>Ja assistiu friends?<think><set name = "topic">friends</set></think></li>
-	<li>Ja assistiu Breaking Bad?<think><set name = "topic">breaking bad</set></think></li>	
+	<li>Ja assistiu Breaking Bad?<think><set name = "topic">breaking bad</set></think></li>
+	<li>Conhece Sherlock?<think><set name = "topic">sherlock</set></think></li>
+	<li>Ja ouvir falar de Vikings?<think><set name = "topic">vikings</set></think></li>
+	<li>Ja viu Black Mirror, ne?<think><set name = "topic">black mirror</set></think></li>			
 	<li>Qual a sua serie favorita?</li>
  </random>
 </template>
@@ -131,7 +134,11 @@
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>Eu e meus amigos adoramos Vikings!<think><set name = "topic">vikings</set></think></template>
 </category>
-
+<category>
+	<pattern>BLACK MIRROR</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>Eu conheco muito bem Black Mirror!<think><set name = "topic">black mirror</set></think></template>
+</category>
 
 <category>
 	<pattern>*</pattern>
