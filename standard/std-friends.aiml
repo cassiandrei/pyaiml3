@@ -201,6 +201,12 @@
 	</template>
 </category>
 
+<category>
+	<pattern>* MELHOR TEMPORADA *</pattern>
+	<template>
+		Eu gostei mais da 9.
+	</template>
+</category>
 
 <category>
 	<pattern>* CRIOU</pattern>
@@ -231,6 +237,22 @@
 		Friends possui 10 temporadas.
 	</template>
 </category>
+
+<category>
+	<pattern> * TEMPORADAS</pattern>
+	<template>
+		Friends possui 10 temporadas.
+	</template>
+</category>
+
+<category>
+	<pattern>* TEMPORADAS *</pattern>
+	<template>
+		Friends possui 10 temporadas.
+	</template>
+</category>
+
+
 
 <category>
 	<pattern>* DEXTER</pattern>
