@@ -32,7 +32,7 @@
  <random>
 	<li>Ja assistiu dexter?<think><set name = "topic">dexter</set></think></li>
 	<li>Ja assistiu friends?<think><set name = "topic">friends</set></think></li>
-	<li>Ja assistiu BreakingBad?<think><set name = "topic">breakingbad</set></think></li>	
+	<li>Ja assistiu Breaking Bad?<think><set name = "topic">breaking bad</set></think></li>	
 	<li>Qual a sua serie favorita?</li>
  </random>
 </template>
@@ -40,18 +40,35 @@
 
 <!-- THAT PERGUNTAS DO ROBOT -->
 <category>
+	<pattern>DEXTER</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>Eu gosto muito de dexter!<think><set name = "topic">dexter</set></think> Me pergunte algo!</template>
+</category>
+
+
+<category>
+	<pattern>FRIENDS</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>Hahahah Friends eh HILARIO!<think><set name = "topic">friends</set></think> Pergunte qualquer coisa sobre!</template>
+</category>
+
+<category>
+	<pattern>BREAKING BAD</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>wwwoooowww Breaking!<think><set name = "topic">breaking bad</set></think> Duvido eu nao saber algo que voce perguntar!</template>
+</category>
+
+<category>
+	<pattern>SHERLOCK</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template> YOU ARE AMAZING!<think><set name = "topic">breaking bad</set></think> Essa tambem eh a minha favorita! Pergunte algo para voce ver!</template>
+</category>
+
+<category>
 	<pattern>*</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
-	<template>
-		<think><set name = "seriefavorita"><star/></set></think>
-		<condition name = "seriefavorita" value = "dexter">
-			Eu gosto muito de dexter!<think><set name = "topic">dexter</set></think> Me pergunte algo!
-		</condition>
-		<condition name = "seriefavorita" value = "friends">
-			Eu gosto muito de friends!<think><set name = "topic">friends</set></think> Pergunte qualquer coisa sobre!
-		</condition>
-		<think><set name = "topic">none</set></think><srai>TESTE</srai>	
-	</template>
+	<template>Eu nao conheco essa serie!<think><set name = "topic">dexter</set></think><srai>TESTE</srai></template>
 </category>
+
 
 </aiml>

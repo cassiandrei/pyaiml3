@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- DEXTER -->
+<category>
+<pattern>* DEXTER *</pattern>
+<template>
+<srai>DEXTER<srai>
+</template>
+</category>
+
+<category>
+<pattern>DEXTER *</pattern>
+<template>
+<srai>DEXTER<srai>
+</template>
+</category>
+
+<category>
+<pattern>* DEXTER</pattern>
+<template>
+<srai>DEXTER<srai>
+</template>
+</category>
+
+<!-- FRIENDS -->
+<category>
+<pattern>* FRIENDS *</pattern>
+<template>
+<srai>FRIENDS<srai>
+</template>
+</category>
+
+<category>
+<pattern>* FRIENDS</pattern>
+<template>
+<srai>FRIENDS<srai>
+</template>
+</category>
+
+<category>
+<pattern>FRIENDS *</pattern>
+<template>
+<srai>FRIENDS<srai>
+</template>
+</category>
+
+<!-- BREAKING BAD -->
+<category>
+<pattern>* BREAKING BAD *</pattern>
+<template>
+<srai>BREAKING BAD<srai>
+</template>
+</category>
+
+<category>
+<pattern>BREAKING BAD *</pattern>
+<template>
+<srai>BREAKING BAD<srai>
+</template>
+</category>
+
+<category>
+<pattern>* BREAKING BAD</pattern>
+<template>
+<srai>BREAKING BAD<srai>
+</template>
+</category>
+
+<!-- SHERLOCK -->
+<category>
+<pattern>* SHERLOCK *</pattern>
+<template>
+<srai>SHERLOCK<srai>
+</template>
+</category>
+
+<category>
+<pattern>SHERLOCK *</pattern>
+<template>
+<srai>SHERLOCK<srai>
+</template>
+</category>
+
+<category>
+<pattern>* SHERLOCK</pattern>
+<template>
+<srai>SHERLOCK<srai>
+</template>
+</category>
+
+</aiml>
