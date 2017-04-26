@@ -124,13 +124,13 @@ Breaking Bad e uma serie de drama.
 
 <category>
 <pattern>*</pattern>
-<template><random>
-<li>Voce sabe qual eh a droga que eles produzem?</li>
-<li>Como Hank descobre que Walter era Heisenberg?</li>
-<li>Sabe quem criou a serie?</li>
-<li>Como eh o nome completo do Walter?</li>
-<li>De que outras series voce gosta?</li>
-</random></template>
+<template><condition name="lastbad">
+	<li value="1">Voce sabe qual eh a droga que eles produzem?<think><set name="lastbad">2</set></think></li>
+	<li value="2">Como Hank descobre que Walter era Heisenberg?<think><set name="lastbad">3</set></think></li>
+	<li value="3">Sabe quem criou a serie?<think><set name="lastbad">4</set></think></li>
+	<li>Como eh o nome completo do Walter?</li>
+	<li value="4">De que outras series voce gosta?<think><set name="lastbad">1</set></think></li>
+</condition></template>
 </category>
 
 <category>
