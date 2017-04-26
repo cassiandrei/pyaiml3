@@ -278,12 +278,32 @@ Breaking Bad e uma serie de drama.
 </category>
 
 <category>
+<pattern>CRIADOR</pattern>
+<template>O criador de Breaking Bad eh Vince Gilligan. </template>
+</category>
+
+<category>
+<pattern>_ CRIADOR _</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
+<pattern>_ CRIADOR</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
 <pattern>TEMPORADAS</pattern>
 <template>Breaking Bad tem 5 temporadas.</template>
 </category>
 
 <category>
 <pattern>_ TEMPORADAS _</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
+<pattern>_ TEMPORADAS</pattern>
 <template><srai>TEMPORADAS</srai></template>
 </category>
 

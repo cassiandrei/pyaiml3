@@ -200,12 +200,33 @@ Vikings e uma serie de acao e historia.
 </category>
 
 <category>
+<pattern>CRIADOR</pattern>
+<template>O criador de Vikings eh Michael Hirst. </template>
+</category>
+
+<category>
+<pattern>_ CRIADOR _</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
+<pattern>_ CRIADOR</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+
+<category>
 <pattern>TEMPORADAS</pattern>
 <template>Vikings tem 5 temporadas.</template>
 </category>
 
 <category>
 <pattern>_ TEMPORADAS _</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
+<pattern>_ TEMPORADAS</pattern>
 <template><srai>TEMPORADAS</srai></template>
 </category>
 
