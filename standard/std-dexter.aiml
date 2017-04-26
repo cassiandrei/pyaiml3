@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!--<topic name="dexter">-->
+
+<category>
+<pattern>_ GENERO *</pattern>
+<template>
+Dexter e uma serie de drama.
+</template>
+</category>
+
+<category>
+<pattern>SINOPSE</pattern>
+<template>A serie eh sobre Dexter, um serial killer que mata pessoas ruins enquanto trabalha na policia de Miami.</template>
+</category>
+
+<category>
+<pattern>_ SINOPSE</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>SINOPSE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SINOPSE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SOBRE</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>SOBRE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SOBRE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>GENERO</pattern>
+<template>Dexter eh uma serie dramatica.</template>
+</category>
+
+<category>
+<pattern>_ GENERO _</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>GENERO _</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>_ GENERO</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>CANAL</pattern>
+<template>A serie passa no canal Showtime.</template>
+</category>
+
+<category>
+<pattern>ONDE * PASSA</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>_ CANAL _</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>_ CANAL</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>Voce sabe o nome do barco do Dexter?</li>
+<li>Sabia que o Michael C. Hall foi indicado cinco vezes ao Globo de Ouro como melhor ator de drama por Dexter?</li>
+<li>Voce sabe como era chamado o serial killer procurado pela policia de Miami na segunda temporada da serie?</li>
+<li>De que outras series voce gosta?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>DE QUE OUTRAS SERIES VOCE GOSTA</that>
+<template><star/></template>
+</category>
+
+<category>
+<pattern>_ BARCO _</pattern>
+<template>O nome do barco do Dexter eh Slice of Life.</template>
+</category>
+
+<category>
+<pattern>SLICE OF LIFE</pattern>
+<that>VOCE SABE O NOME DO BARCO DO DEXTER</that>
+<template>Acertou, parabens!</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>VOCE SABE O NOME DO BARCO DO DEXTER</that>
+<template>O nome do barco eh Slice of Life.</template>
+</category>
+
+<category>
+<pattern>PERSONAGEM</pattern>
+<template>Gosto muito da Debra. E voce?</template>
+</category>
+
+<category>
+<pattern>_ PERSONAGEM FAVORITO _</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>_ PERSONAGEM FAVORITO</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>PERSONAGEM FAVORITO _</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>ATORES</pattern>
+<template>Alguns atores da serie sao Michael C. Hall, Jennifer Carpenter e David Zayas.</template>
+</category>
+
+<category>
+<pattern>_ ATORES _</pattern>
+<template><srai>ATORES</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORADAS</pattern>
+<template>Dexter tem 8 temporadas.</template>
+</category>
+
+<category>
+<pattern>_ TEMPORADAS _</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
+<pattern>GOSTA *</pattern>
+<template><random>
+<li>Eu adoro o <star/></li>
+<li>Quem nao gosta do <star/>?</li>
+<li>Por que? Voce não gosta do <star/></li>
+</random></template>
+</category>
+
+<category>
+<pattern>* GOSTA DO *</pattern>
+<template><srai>GOSTA <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>* GOSTA DA *</pattern>
+<template><srai>GOSTA <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>TU *</pattern>
+<template><srai>VOCE <star/></srai></template>
+</category>
+
+
+<!--</topic>-->
+
+</aiml>
