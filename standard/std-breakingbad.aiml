@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<topic name="BREAKING BAD">
+
+<category>
+<pattern>SIM</pattern>
+<that>* JA ASSISTIU BREAKING BAD</that>
+<template>Eh muito boa, nao eh mesmo?</template>
+</category>
+
+<category>
+<pattern>NAO</pattern>
+<that>* JA ASSISTIU BREAKING BAD</that>
+<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>* JA ASSISTIU BREAKING BAD</that>
+<template>Vamos falar sobre a serie?</template>
+</category>
+
+<category>
+<pattern>SIM</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>O que te chama a atencao nela?</template>
+</category>
+
+<category>
+<pattern>NAO</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>Sobre o que quer falar?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>Gosta de series dramaticas?</template>
+</category>
+
+<category>
+<pattern>_ GENERO *</pattern>
+<template>
+Breaking Bad e uma serie de drama.
+</template>
+</category>
+
+<category>
+<pattern>SINOPSE</pattern>
+<template>A serie eh sobre um professor de quimica que descobre que esta com cancer e decide fabricar drogas para juntar dinheiro para sua familia.</template>
+</category>
+
+<category>
+<pattern>_ SINOPSE</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>SINOPSE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SINOPSE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SOBRE</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>SOBRE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>_ SOBRE _</pattern>
+<template><srai>SINOPSE</srai></template>
+</category>
+
+<category>
+<pattern>GENERO</pattern>
+<template>Breaking Bad eh uma serie de drama.</template>
+</category>
+
+<category>
+<pattern>* GENERO *</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>GENERO *</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>* GENERO</pattern>
+<template><srai>GENERO</srai></template>
+</category>
+
+<category>
+<pattern>CANAL</pattern>
+<template>A serie passa no canal AXN.</template>
+</category>
+
+<category>
+<pattern>ONDE * PASSA</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>_ CANAL _</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>_ CANAL</pattern>
+<template><srai>CANAL</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>Voce sabe qual eh a droga que eles produzem?</li>
+<li>Como Hank descobre que Walter era Heisenberg?</li>
+<li>Sabe quem criou a serie?</li>
+<li>Como eh o nome completo do Walter?</li>
+<li>De que outras series voce gosta?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>DE QUE OUTRAS SERIES VOCE GOSTA</that>
+<template><srai><star/> MUDATOPICO</srai></template>
+</category>
+
+<category>
+<pattern>WALTER HARTWELL WHITE</pattern>
+<that>COMO EH O NOME COMPLETO DO WALTER</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>* WALTER HARTWELL WHITE</pattern>
+<that>COMO EH O NOME COMPLETO DO WALTER</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>WALTER HARTWELL WHITE *</pattern>
+<that>COMO EH O NOME COMPLETO DO WALTER</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>COMO EH O NOME COMPLETO DO WALTER</that>
+<template>Walter Hartwell White.</template>
+</category>
+
+<category>
+<pattern>VINCE GILLIGAN</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>VINCE GILLIGAN *</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>* VINCE GILLIGAN</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>* VINCE GILLIGAN *</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Vince Gilligan eh o criador da serie. Achei que voce soubesse.</template>
+</category>
+
+<category>
+<pattern>LIVRO</pattern>
+<that>COMO HANK DESCOBRE QUE WALTER ERA HEISENBERG</that>
+<template>Sim, ele achou um livro na casa de Walt!</template>
+</category>
+
+<category>
+<pattern>* LIVRO</pattern>
+<that>COMO HANK DESCOBRE QUE WALTER ERA HEISENBERG</that>
+<template>Sim, ele achou um livro na casa de Walt!</template>
+</category>
+
+<category>
+<pattern>LIVRO *</pattern>
+<that>COMO HANK DESCOBRE QUE WALTER ERA HEISENBERG</that>
+<template>Sim, ele achou um livro na casa de Walt!</template>
+</category>
+
+<category>
+<pattern>* LIVRO *</pattern>
+<that>COMO HANK DESCOBRE QUE WALTER ERA HEISENBERG</that>
+<template>Sim, ele achou um livro na casa de Walt!</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>COMO HANK DESCOBRE QUE WALTER ERA HEISENBERG</that>
+<template>Ele achou um livro na casa de Walt que o incriminou!</template>
+</category>
+
+<category>
+<pattern>METANFETAMINA</pattern>
+<that>VOCE SABE QUAL EH A DROGA QUE ELES PRODUZEM</that>
+<template>Acertou, parabens!</template>
+</category>
+
+<category>
+<pattern>METANFETAMINA *</pattern>
+<that>VOCE SABE QUAL EH A DROGA QUE ELES PRODUZEM</that>
+<template>Acertou, parabens!</template>
+</category>
+
+<category>
+<pattern>* METANFETAMINA</pattern>
+<that>VOCE SABE QUAL EH A DROGA QUE ELES PRODUZEM</that>
+<template>Acertou, parabens!</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>VOCE SABE QUAL EH A DROGA QUE ELES PRODUZEM</that>
+<template>Eles produzem metanfetamina, essa era facil!</template>
+</category>
+
+<category>
+<pattern>PERSONAGEM</pattern>
+<template>Meu personagem favorito eh o Jesse. E o seu?</template>
+</category>
+
+<category>
+<pattern>_ PERSONAGEM FAVORITO _</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>_ PERSONAGEM FAVORITO</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>PERSONAGEM FAVORITO _</pattern>
+<template><srai>PERSONAGEM</srai></template>
+</category>
+
+<category>
+<pattern>ATORES</pattern>
+<template>Alguns atores da serie sao Bryan Cranston, Aaron Paul e Anna Gunn.</template>
+</category>
+
+<category>
+<pattern>_ ATORES _</pattern>
+<template><srai>ATORES</srai></template>
+</category>
+
+<category>
+<pattern>CRIADOR</pattern>
+<template>O criador de Breaking Bad eh Vince Gilligan. </template>
+</category>
+
+<category>
+<pattern>_ CRIADOR _</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
+<pattern>_ CRIADOR</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORADAS</pattern>
+<template>Breaking Bad tem 5 temporadas.</template>
+</category>
+
+<category>
+<pattern>_ TEMPORADAS _</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
+<pattern>_ TEMPORADAS</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
+<pattern>GOSTA *</pattern>
+<template><random>
+<li>Eu adoro o <star/></li>
+<li>Quem nao gosta do <star/>?</li>
+<li>Por que? Voce não gosta do <star/></li>
+</random></template>
+</category>
+
+<category>
+<pattern>* GOSTA DO *</pattern>
+<template><srai>GOSTA <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>* GOSTA DA *</pattern>
+<template><srai>GOSTA <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>TU *</pattern>
+<template><srai>VOCE <star/></srai></template>
+</category>
+
+
+</topic>
+
+</aiml>

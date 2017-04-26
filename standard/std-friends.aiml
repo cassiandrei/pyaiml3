@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
 
+<topic name="FRIENDS">
+
+<category>
+<pattern>SIM</pattern>
+<that>* JA ASSISTIU FRIENDS</that>
+<template>Eu tambem ja vi. Gostou da serie?</template>
+</category>
+
+<category>
+<pattern>NAO</pattern>
+<that>* JA ASSISTIU FRIENDS</that>
+<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>* JA ASSISTIU FRIENDS</that>
+<template>Vamos falar sobre a serie?</template>
+</category>
+
+<category>
+<pattern>SIM</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>O que te chama a atencao nela?</template>
+</category>
+
+<category>
+<pattern>NAO</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>Sobre o que quer falar?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>VAMOS FALAR SOBRE A SERIE</that>
+<template>Gosta de series de comedia?</template>
+</category>
+
+
 <!--
 <category>
 	<pattern>conhece a serie friends?</pattern>
@@ -9,6 +48,26 @@
 	</template>
 </category>
 -->
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>Voce ja chorou de rir vendo Friends?</li>
+<li>De que outras series voce gosta?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>VOCE JA CHOROU DE RIR VENDO FRIENDS</that>
+<template>Eu dou risada so de lembrar de alguns momentos hahaha</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>DE QUE OUTRAS SERIES VOCE GOSTA</that>
+<template><srai><star/> MUDATOPICO</srai></template>
+</category>
 
 <category>
 	<pattern>CONHECE * FRIENDS</pattern>
@@ -111,12 +170,12 @@
 	</template>
 </category>
 
-
 <category>
 	<pattern>TEMPORADAS</pattern>
 	<template>
 		Friends possui 10 temporadas.
 	</template>
 </category>
+</topic>
 
 </aiml>

@@ -2,54 +2,54 @@
 
 <aiml version="1.0">
 
-<topic name="DEXTER">
+<topic name="BLACK MIRROR">
 
 <category>
 <pattern>SIM</pattern>
-<that>* JA ASSISTIU DEXTER</that>
-<template>Eu tambem. O que achou?</template>
+<that>* JA ASSISTIU BLACK MIRROR</that>
+<template>Eu tambem. Eh muito boa, nao?</template>
 </category>
 
 <category>
 <pattern>NAO</pattern>
-<that>* JA ASSISTIU DEXTER</that>
-<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
+<that>* JA ASSISTIU BLACK MIRROR</that>
+<template>Por que nao?. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>* JA ASSISTIU DEXTER</that>
-<template>Vamos falar sobre a serie?</template>
+<that>* JA ASSISTIU BLACK MIRROR</that>
+<template>Quer falar sobre a serie?</template>
 </category>
 
 <category>
 <pattern>SIM</pattern>
 <that>VAMOS FALAR SOBRE A SERIE</that>
-<template>O que te chama a atencao nela?</template>
+<template>Qual voce considera o ponto alto dela?</template>
 </category>
 
 <category>
 <pattern>NAO</pattern>
 <that>VAMOS FALAR SOBRE A SERIE</that>
-<template>Sobre o que quer falar?</template>
+<template>Sobre o que quer falar entao?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
 <that>VAMOS FALAR SOBRE A SERIE</that>
-<template>Gosta de series dramaticas?</template>
+<template>Gosta de series que te fazem pensar?</template>
 </category>
 
 <category>
 <pattern>_ GENERO *</pattern>
 <template>
-Dexter e uma serie de drama.
+Black Mirror e uma serie de drama e sci-fi.
 </template>
 </category>
 
 <category>
 <pattern>SINOPSE</pattern>
-<template>A serie eh sobre Dexter, um serial killer que mata pessoas ruins enquanto trabalha na policia de Miami.</template>
+<template>A serie conta varias historias que mostram problemas da humanidade e tecnologia.</template>
 </category>
 
 <category>
@@ -84,7 +84,7 @@ Dexter e uma serie de drama.
 
 <category>
 <pattern>GENERO</pattern>
-<template>Dexter eh uma serie dramatica.</template>
+<template>Black Mirror eh uma serie de drama e sci-fi.</template>
 </category>
 
 <category>
@@ -104,7 +104,7 @@ Dexter e uma serie de drama.
 
 <category>
 <pattern>CANAL</pattern>
-<template>A serie passa no canal Showtime.</template>
+<template>A emissora original da serie eh Channel 4. Agora eh mais popular na Netflix.</template>
 </category>
 
 <category>
@@ -125,9 +125,8 @@ Dexter e uma serie de drama.
 <category>
 <pattern>*</pattern>
 <template><random>
-<li>Voce sabe o nome do barco do Dexter?</li>
-<li>Sabia que o Michael C. Hall foi indicado cinco vezes ao Globo de Ouro como melhor ator de drama por Dexter?</li>
-<li>Voce sabe como era chamado o serial killer procurado pela policia de Miami na segunda temporada da serie?</li>
+<li>Qual eh seu episodio favorito?</li>
+<li>O nome do criador da serie eh Charlie Brooker. O cara eh um genio!</li>
 <li>De que outras series voce gosta?</li>
 </random></template>
 </category>
@@ -139,63 +138,20 @@ Dexter e uma serie de drama.
 </category>
 
 <category>
-<pattern>BAY HARBOR BUTCHER</pattern>
-<that>VOCE SABE COMO ERA CHAMADO O SERIAL KILLER PROCURADO PELA POLICIA DE MIAMI NA SEGUNDA TEMPORADA DA SERIE</that>
-<template>Acertou, parabens!</template>
-</category>
-
-<category>
-<pattern>* BAY HARBOR BUTCHER</pattern>
-<that>VOCE SABE COMO ERA CHAMADO O SERIAL KILLER PROCURADO PELA POLICIA DE MIAMI NA SEGUNDA TEMPORADA DA SERIE</that>
-<template>Acertou, parabens!</template>
+<pattern>* QUE *</pattern>
+<that>QUAL EH SEU EPISODIO FAVORITO</that>
+<template>Acho esse episodio otimo. O que voce mais gostou nele?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>VOCE SABE COMO ERA CHAMADO O SERIAL KILLER PROCURADO PELA POLICIA DE MIAMI NA SEGUNDA TEMPORADA DA SERIE</that>
-<template>Era Bay Harbor Butcher!</template>
-</category>
-
-<category>
-<pattern>_ BARCO _</pattern>
-<template>O nome do barco do Dexter eh Slice of Life.</template>
-</category>
-
-<category>
-<pattern>SLICE OF LIFE</pattern>
-<that>VOCE SABE O NOME DO BARCO DO DEXTER</that>
-<template>Acertou, parabens!</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>VOCE SABE O NOME DO BARCO DO DEXTER</that>
-<template>O nome do barco eh Slice of Life.</template>
-</category>
-
-<category>
-<pattern>PERSONAGEM</pattern>
-<template>Gosto muito da Debra. E voce?</template>
-</category>
-
-<category>
-<pattern>_ PERSONAGEM FAVORITO _</pattern>
-<template><srai>PERSONAGEM</srai></template>
-</category>
-
-<category>
-<pattern>_ PERSONAGEM FAVORITO</pattern>
-<template><srai>PERSONAGEM</srai></template>
-</category>
-
-<category>
-<pattern>PERSONAGEM FAVORITO _</pattern>
-<template><srai>PERSONAGEM</srai></template>
+<that>QUAL EH SEU EPISODIO FAVORITO</that>
+<template>'<star/>?'</template>
 </category>
 
 <category>
 <pattern>ATORES</pattern>
-<template>Alguns atores da serie sao Michael C. Hall, Jennifer Carpenter e David Zayas.</template>
+<template>Muitos atores diferentes estao na serie, alguns ja bem famosos.</template>
 </category>
 
 <category>
@@ -204,12 +160,32 @@ Dexter e uma serie de drama.
 </category>
 
 <category>
+<pattern>CRIADOR</pattern>
+<template>O criador de Black Mirror eh Charlie Brooker. </template>
+</category>
+
+<category>
+<pattern>_ CRIADOR _</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
+<pattern>_ CRIADOR</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
 <pattern>TEMPORADAS</pattern>
-<template>Dexter tem 8 temporadas.</template>
+<template>Black Mirror tem 4 temporadas.</template>
 </category>
 
 <category>
 <pattern>_ TEMPORADAS _</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
+<pattern>_ TEMPORADAS</pattern>
 <template><srai>TEMPORADAS</srai></template>
 </category>
 

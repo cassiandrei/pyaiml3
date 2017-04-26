@@ -2,23 +2,23 @@
 
 <aiml version="1.0">
 
-<topic name="DEXTER">
+<topic name="VIKINGS">
 
 <category>
 <pattern>SIM</pattern>
-<that>* JA ASSISTIU DEXTER</that>
-<template>Eu tambem. O que achou?</template>
+<that>* JA ASSISTIU VIKINGS</that>
+<template>Eh muito boa, nao eh mesmo?</template>
 </category>
 
 <category>
 <pattern>NAO</pattern>
-<that>* JA ASSISTIU DEXTER</that>
-<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
+<that>* JA ASSISTIU VIKINGS</that>
+<template>Assista agora! <think><set name="topic"> </set></think><srai>SERIE</srai></template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>* JA ASSISTIU DEXTER</that>
+<that>* JA ASSISTIU VIKINGS</that>
 <template>Vamos falar sobre a serie?</template>
 </category>
 
@@ -37,19 +37,19 @@
 <category>
 <pattern>*</pattern>
 <that>VAMOS FALAR SOBRE A SERIE</that>
-<template>Gosta de series dramaticas?</template>
+<template>Gosta de series historicas?</template>
 </category>
 
 <category>
 <pattern>_ GENERO *</pattern>
 <template>
-Dexter e uma serie de drama.
+Vikings e uma serie de acao e historia.
 </template>
 </category>
 
 <category>
 <pattern>SINOPSE</pattern>
-<template>A serie eh sobre Dexter, um serial killer que mata pessoas ruins enquanto trabalha na policia de Miami.</template>
+<template>A serie conta a historia de vikings atraves das jornadas de Ragnar Lothbrok.</template>
 </category>
 
 <category>
@@ -84,27 +84,27 @@ Dexter e uma serie de drama.
 
 <category>
 <pattern>GENERO</pattern>
-<template>Dexter eh uma serie dramatica.</template>
+<template>Vikings eh uma serie de acao historica.</template>
 </category>
 
 <category>
-<pattern>_ GENERO _</pattern>
+<pattern>* GENERO *</pattern>
 <template><srai>GENERO</srai></template>
 </category>
 
 <category>
-<pattern>GENERO _</pattern>
+<pattern>GENERO *</pattern>
 <template><srai>GENERO</srai></template>
 </category>
 
 <category>
-<pattern>_ GENERO</pattern>
+<pattern>* GENERO</pattern>
 <template><srai>GENERO</srai></template>
 </category>
 
 <category>
 <pattern>CANAL</pattern>
-<template>A serie passa no canal Showtime.</template>
+<template>A serie passa no canal History.</template>
 </category>
 
 <category>
@@ -125,9 +125,8 @@ Dexter e uma serie de drama.
 <category>
 <pattern>*</pattern>
 <template><random>
-<li>Voce sabe o nome do barco do Dexter?</li>
-<li>Sabia que o Michael C. Hall foi indicado cinco vezes ao Globo de Ouro como melhor ator de drama por Dexter?</li>
-<li>Voce sabe como era chamado o serial killer procurado pela policia de Miami na segunda temporada da serie?</li>
+<li>Voce acha a serie muito violenta?</li>
+<li>Sabe quem criou a serie?</li>
 <li>De que outras series voce gosta?</li>
 </random></template>
 </category>
@@ -139,44 +138,41 @@ Dexter e uma serie de drama.
 </category>
 
 <category>
-<pattern>BAY HARBOR BUTCHER</pattern>
-<that>VOCE SABE COMO ERA CHAMADO O SERIAL KILLER PROCURADO PELA POLICIA DE MIAMI NA SEGUNDA TEMPORADA DA SERIE</that>
-<template>Acertou, parabens!</template>
+<pattern>MICHAEL HIRST</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
 </category>
 
 <category>
-<pattern>* BAY HARBOR BUTCHER</pattern>
-<that>VOCE SABE COMO ERA CHAMADO O SERIAL KILLER PROCURADO PELA POLICIA DE MIAMI NA SEGUNDA TEMPORADA DA SERIE</that>
-<template>Acertou, parabens!</template>
+<pattern>MICHAEL HIRST *</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>VOCE SABE COMO ERA CHAMADO O SERIAL KILLER PROCURADO PELA POLICIA DE MIAMI NA SEGUNDA TEMPORADA DA SERIE</that>
-<template>Era Bay Harbor Butcher!</template>
+<pattern>* MICHAEL HIRST</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
 </category>
 
 <category>
-<pattern>_ BARCO _</pattern>
-<template>O nome do barco do Dexter eh Slice of Life.</template>
-</category>
-
-<category>
-<pattern>SLICE OF LIFE</pattern>
-<that>VOCE SABE O NOME DO BARCO DO DEXTER</that>
-<template>Acertou, parabens!</template>
+<pattern>* MICHAEL HIRST *</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Voce parece conhecer bastante sobre series! O que mais voce sabe?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>VOCE SABE O NOME DO BARCO DO DEXTER</that>
-<template>O nome do barco eh Slice of Life.</template>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Michael Hirst criou Vikings. </template>
 </category>
+
 
 <category>
 <pattern>PERSONAGEM</pattern>
-<template>Gosto muito da Debra. E voce?</template>
+<template>Meu personagem favorito eh o Floki. E o seu?</template>
 </category>
+
 
 <category>
 <pattern>_ PERSONAGEM FAVORITO _</pattern>
@@ -195,7 +191,7 @@ Dexter e uma serie de drama.
 
 <category>
 <pattern>ATORES</pattern>
-<template>Alguns atores da serie sao Michael C. Hall, Jennifer Carpenter e David Zayas.</template>
+<template>Alguns atores de Vikings sao Gustaf Skarsgård, Katheryn Winnick, Alexander Ludwig.</template>
 </category>
 
 <category>
@@ -204,8 +200,24 @@ Dexter e uma serie de drama.
 </category>
 
 <category>
+<pattern>CRIADOR</pattern>
+<template>O criador de Vikings eh Michael Hirst. </template>
+</category>
+
+<category>
+<pattern>_ CRIADOR _</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
+<pattern>_ CRIADOR</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+
+<category>
 <pattern>TEMPORADAS</pattern>
-<template>Dexter tem 8 temporadas.</template>
+<template>Vikings tem 5 temporadas.</template>
 </category>
 
 <category>
@@ -214,11 +226,16 @@ Dexter e uma serie de drama.
 </category>
 
 <category>
+<pattern>_ TEMPORADAS</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
 <pattern>GOSTA *</pattern>
 <template><random>
 <li>Eu adoro o <star/></li>
 <li>Quem nao gosta do <star/>?</li>
-<li>Por que? Voce não gosta do <star/>?</li>
+<li>Por que? Voce não gosta do <star/></li>
 </random></template>
 </category>
 

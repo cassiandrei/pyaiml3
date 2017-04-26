@@ -2,23 +2,23 @@
 
 <aiml version="1.0">
 
-<topic name="DEXTER">
+<topic name="SHERLOCK">
 
 <category>
 <pattern>SIM</pattern>
-<that>* JA ASSISTIU DEXTER</that>
-<template>Eu tambem. O que achou?</template>
+<that>* JA ASSISTIU SHERLOCK</that>
+<template>Eu tambem assisti. O que achou?</template>
 </category>
 
 <category>
 <pattern>NAO</pattern>
-<that>* JA ASSISTIU DEXTER</that>
+<that>* JA ASSISTIU SHERLOCK</that>
 <template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>* JA ASSISTIU DEXTER</that>
+<that>* JA ASSISTIU SHERLOCK</that>
 <template>Vamos falar sobre a serie?</template>
 </category>
 
@@ -43,13 +43,13 @@
 <category>
 <pattern>_ GENERO *</pattern>
 <template>
-Dexter e uma serie de drama.
+Sherlock e uma serie de drama.
 </template>
 </category>
 
 <category>
 <pattern>SINOPSE</pattern>
-<template>A serie eh sobre Dexter, um serial killer que mata pessoas ruins enquanto trabalha na policia de Miami.</template>
+<template>A serie eh sobre o famoso detetive Sherlock Holmes.</template>
 </category>
 
 <category>
@@ -84,7 +84,7 @@ Dexter e uma serie de drama.
 
 <category>
 <pattern>GENERO</pattern>
-<template>Dexter eh uma serie dramatica.</template>
+<template>SHERLOCK eh uma serie de misterio.</template>
 </category>
 
 <category>
@@ -104,7 +104,7 @@ Dexter e uma serie de drama.
 
 <category>
 <pattern>CANAL</pattern>
-<template>A serie passa no canal Showtime.</template>
+<template>A serie passa no canal BBC.</template>
 </category>
 
 <category>
@@ -125,9 +125,9 @@ Dexter e uma serie de drama.
 <category>
 <pattern>*</pattern>
 <template><random>
-<li>Voce sabe o nome do barco do Dexter?</li>
-<li>Sabia que o Michael C. Hall foi indicado cinco vezes ao Globo de Ouro como melhor ator de drama por Dexter?</li>
-<li>Voce sabe como era chamado o serial killer procurado pela policia de Miami na segunda temporada da serie?</li>
+<condition name="sherlock1" value="1"><li><set name="sherlock1" value="1"></set>Quem eh o parceiro fiel do Sherlock?</li></condition>
+<condition name="sherlock2" value="1"><li><set name="sherlock2" value="1"></set>Qual o nome da mafia que leva a marca de tong nos pes?</li></condition>
+<condition name="sherlock3" value="1"><li><set name="sherlock3" value="1"></set>Sabe quem eh o criador da serie?</li></condition>
 <li>De que outras series voce gosta?</li>
 </random></template>
 </category>
@@ -139,43 +139,98 @@ Dexter e uma serie de drama.
 </category>
 
 <category>
-<pattern>BAY HARBOR BUTCHER</pattern>
-<that>VOCE SABE COMO ERA CHAMADO O SERIAL KILLER PROCURADO PELA POLICIA DE MIAMI NA SEGUNDA TEMPORADA DA SERIE</that>
-<template>Acertou, parabens!</template>
+<pattern>MARK GATISS</pattern>
+<that>SABE QUEM EH O CRIADOR DA SERIE</that>
+<template>Acertou! O que mais voce sabe?</template>
 </category>
 
 <category>
-<pattern>* BAY HARBOR BUTCHER</pattern>
-<that>VOCE SABE COMO ERA CHAMADO O SERIAL KILLER PROCURADO PELA POLICIA DE MIAMI NA SEGUNDA TEMPORADA DA SERIE</that>
-<template>Acertou, parabens!</template>
+<pattern>MARK GATISS *</pattern>
+<that>SABE QUEM EH O CRIADOR DA SERIE</that>
+<template>Acertou! O que mais voce sabe?</template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>VOCE SABE COMO ERA CHAMADO O SERIAL KILLER PROCURADO PELA POLICIA DE MIAMI NA SEGUNDA TEMPORADA DA SERIE</that>
-<template>Era Bay Harbor Butcher!</template>
+<pattern>* MARK GATISS</pattern>
+<that>SABE QUEM EH O CRIADOR DA SERIE</that>
+<template>Acertou! O que mais voce sabe?</template>
 </category>
 
 <category>
-<pattern>_ BARCO _</pattern>
-<template>O nome do barco do Dexter eh Slice of Life.</template>
-</category>
-
-<category>
-<pattern>SLICE OF LIFE</pattern>
-<that>VOCE SABE O NOME DO BARCO DO DEXTER</that>
-<template>Acertou, parabens!</template>
+<pattern>* MARK GATISS *</pattern>
+<that>SABE QUEM EH O CRIADOR DA SERIE</that>
+<template>Acertou! O que mais voce sabe?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>VOCE SABE O NOME DO BARCO DO DEXTER</that>
-<template>O nome do barco eh Slice of Life.</template>
+<that>SABE QUEM EH O CRIADOR DA SERIE</that>
+<template>Mark Gatiss criou a serie.</template>
+</category>
+
+<category>
+<pattern>BLACK LOTUS</pattern>
+<that>QUAL O NOME DA MAFIA QUE LEVA A MARCA DE TONG NOS PES</that>
+<template>Voce sabe muito sobre Sherlock!</template>
+</category>
+
+<category>
+<pattern>* BLACK LOTUS</pattern>
+<that>QUAL O NOME DA MAFIA QUE LEVA A MARCA DE TONG NOS PES</that>
+<template>Voce sabe muito sobre Sherlock!</template>
+</category>
+
+<category>
+<pattern>BLACK LOTUS *</pattern>
+<that>QUAL O NOME DA MAFIA QUE LEVA A MARCA DE TONG NOS PES</that>
+<template>Voce sabe muito sobre Sherlock!</template>
+</category>
+
+<category>
+<pattern> * BLACK LOTUS *</pattern>
+<that>QUAL O NOME DA MAFIA QUE LEVA A MARCA DE TONG NOS PES</that>
+<template>Voce sabe muito sobre Sherlock!</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>QUAL O NOME DA MAFIA QUE LEVA A MARCA DE TONG NOS PES</that>
+<template>Black Lotus. Essa pergunta era dificil!</template>
+</category>
+
+<category>
+<pattern>JOHN WATSON</pattern>
+<that>QUEM EH O PARCEIRO FIEL DE SHERLOCK</that>
+<template>Isso mesmo.</template>
+</category>
+
+<category>
+<pattern>* JOHN WATSON</pattern>
+<that>QUEM EH O PARCEIRO FIEL DE SHERLOCK</that>
+<template>Isso mesmo.</template>
+</category>
+
+<category>
+<pattern>JOHN WATSON *</pattern>
+<that>QUEM EH O PARCEIRO FIEL DE SHERLOCK</that>
+<template>Isso mesmo.</template>
+</category>
+
+<category>
+<pattern>* JOHN WATSON *</pattern>
+<that>QUEM EH O PARCEIRO FIEL DE SHERLOCK</that>
+<template>Isso mesmo.</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>QUEM EH O PARCEIRO FIEL DE SHERLOCK</that>
+<template>O parceiro dele eh John Watson.</template>
 </category>
 
 <category>
 <pattern>PERSONAGEM</pattern>
-<template>Gosto muito da Debra. E voce?</template>
+<template>Meu personagem favorito da serie eh o vilao Moriarty. Voce tem algum favorito?</template>
 </category>
 
 <category>
@@ -195,7 +250,7 @@ Dexter e uma serie de drama.
 
 <category>
 <pattern>ATORES</pattern>
-<template>Alguns atores da serie sao Michael C. Hall, Jennifer Carpenter e David Zayas.</template>
+<template>Alguns atores da serie sao Benedict Cumberbatch, Martin Freeman, Una Stubbs. </template>
 </category>
 
 <category>
@@ -204,12 +259,32 @@ Dexter e uma serie de drama.
 </category>
 
 <category>
+<pattern>CRIADOR</pattern>
+<template>O criador de Sherlock eh Mark Gatiss. </template>
+</category>
+
+<category>
+<pattern>_ CRIADOR _</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
+<pattern>_ CRIADOR</pattern>
+<template><srai>CRIADOR</srai></template>
+</category>
+
+<category>
 <pattern>TEMPORADAS</pattern>
-<template>Dexter tem 8 temporadas.</template>
+<template>Sherlock tem 4 temporadas.</template>
 </category>
 
 <category>
 <pattern>_ TEMPORADAS _</pattern>
+<template><srai>TEMPORADAS</srai></template>
+</category>
+
+<category>
+<pattern>_ TEMPORADAS</pattern>
 <template><srai>TEMPORADAS</srai></template>
 </category>
 

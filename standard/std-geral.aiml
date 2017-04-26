@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-
 <aiml version="1.0">
 
-   <category>
-      <pattern> OLA * </pattern>
-      <template>
-         <random>
-		<li>Ola, qual o seu nome?</li>
-	 </random>
-      </template>
-   </category>
+<category>
+<pattern> OLA </pattern>
+<template>
+ <random>
+	<li>Ola, qual o seu nome?</li>
+ </random>
+</template>
+</category>
+
+<category>
+<pattern>TAMBEM</pattern>
+<template>Que coincidencia!</template>
+</category>
 
 <!-- THATS -->
 <category>
@@ -19,10 +23,15 @@
 </category>
 
 <category>
-	<pattern></pattern>
-	<that></that>
-	<template></template>
+	<pattern>* SERIE NOVA</pattern>
+	<template><srai>SERIE</srai></template>
 </category>
+
+<category>
+	<pattern>* OUTRA SERIE</pattern>
+	<template><srai>SERIE</srai></template>
+</category>
+
 
 
 <!-- PERGUNTAS DO ROBOT SOBRE SERIE -->
@@ -30,18 +39,104 @@
 <pattern> SERIE </pattern>
 <template>
  <random>
-	<li>Ja assistiu <set name = "topic">dexter</set>?</li>
-	<li>Ja assistiu <set name = "topic">friends</set>?</li>	
+	<li>Ja assistiu dexter?<think><set name = "topic">dexter</set></think></li>
+	<li>Ja assistiu friends?<think><set name = "topic">friends</set></think></li>
+	<li>Ja assistiu Breaking Bad?<think><set name = "topic">breaking bad</set></think></li>	
 	<li>Qual a sua serie favorita?</li>
  </random>
 </template>
 </category>
 
+<category>
+	<pattern>* SERIE FAVORITA</pattern>
+	<template><srai>SERIE</srai></template>
+</category>
+
+<category>
+<pattern>* MUDATOPICO</pattern>
+<template>Por que <star/>?<think><set name="topic"><star/></set></think></template>
+</category>
+
+<category>
+<pattern>* NETFLIX *</pattern>
+<template>Eu assisto muitas series na Netflix.</template>
+</category>
+
+<category>
+<pattern>* NETFLIX</pattern>
+<template>Eu assisto muitas series na Netflix.</template>
+</category>
+
+<category>
+<pattern>* DEXTER *</pattern>
+<template><think><set name="topic">dexter</set></think><srai><star index="1"/> Dexter</srai></template>
+</category>
+
+<category>
+<pattern>* SHERLOCK *</pattern>
+<template><think><set name="topic">sherlock</set></think><srai><star index="1"/> sherlock</srai></template>
+</category>
+
+<category>
+<pattern>* FRIENDS *</pattern>
+<template><think><set name="topic">friends</set></think><srai><star index="1"/> friends</srai></template>
+</category>
+
+<category>
+<pattern>* BREAKING BAD *</pattern>
+<template><think><set name="topic">breaking bad</set></think><srai><star index="1"/> breaking bad</srai></template>
+</category>
+
+<category>
+<pattern>* VIKINGS *</pattern>
+<template><think><set name="topic">vikings</set></think><srai><star index="1"/>vikings</srai></template>
+</category>
+
+<category>
+<pattern>* BLACK MIRROR *</pattern>
+<template><think><set name="topic">black mirror</set></think><srai><star index="1"/>black mirror</srai></template>
+</category>
+
+
+
+
 <!-- THAT PERGUNTAS DO ROBOT -->
 <category>
+	<pattern>DEXTER</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>Eu gosto muito de dexter!<think><set name = "topic">dexter</set></think> Me pergunte algo!</template>
+</category>
+
+
+<category>
+	<pattern>FRIENDS</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>Hahahah Friends eh HILARIO!<think><set name = "topic">friends</set></think> Pergunte qualquer coisa sobre!</template>
+</category>
+
+<category>
+	<pattern>BREAKING BAD</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>wwwoooowww Breaking!<think><set name = "topic">breaking bad</set></think> Duvido eu nao saber algo que voce perguntar!</template>
+</category>
+
+<category>
+	<pattern>SHERLOCK</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template> YOU ARE AMAZING!<think><set name = "topic">sherlock</set></think> Essa tambem eh a minha favorita! Pergunte algo para voce ver!</template>
+</category>
+
+<category>
+	<pattern>VIKINGS</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>Eu e meus amigos adoramos Vikings!<think><set name = "topic">vikings</set></think></template>
+</category>
+
+
+<category>
 	<pattern>*</pattern>
-	<that>Qual a sua serie favorita?</that>
-	<template><think><set name = "seriefavorita"><star/></set></think></template>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>Eu nao conheco essa serie! <think><set name = "topic">none</set></think><srai>INTRO</srai></template>
 </category>
 
 </aiml>
