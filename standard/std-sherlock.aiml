@@ -122,15 +122,31 @@ Sherlock e uma serie de drama.
 <template><srai>CANAL</srai></template>
 </category>
 
+<!--<category>
+<pattern>*</pattern>
+<template><random>
+<<<<<<< HEAD
+<condition name="sherlock1"><li value="1">De que outras?</li><li><set name="sherlock1" value="1"></set>Quem eh o parceiro fiel do Sherlock?</li></condition>
+<condition name="sherlock2" value="1"><li><set name="sherlock2" value="1"></set>Qual o nome da mafia que leva a marca de tong nos pes?</li></condition>
+<condition name="sherlock3" value="1"><li><set name="sherlock3" value="1"></set>Sabe quem eh o criador da serie?</li></condition>
+<li>De que outras series voce gosta?</li>
+</random></template>
+</category>-->
+
 <category>
 <pattern>*</pattern>
 <template><random>
+<condition name="sherlock1" value="unknown"><li><set name="sherlock1" value="1"></set>Quem eh o parceiro fiel do Sherlock?</li></condition>
+<li>De que outras series voce gosta?</li>
+</random></template>
+
 <li><condition name="sherlock1" value=""><think><set name="sherlock1" value="1"></set></think>Quem eh o parceiro fiel do Sherlock?</condition></li>
 <li><condition name="sherlock2" value=""><think><set name="sherlock2" value="1"></set></think>Qual o nome da mafia que leva a marca de tong nos pes?</condition></li>
 <li><condition name="sherlock3" value=""><think><set name="sherlock3" value="1"></set></think>Sabe quem eh o criador da serie?</condition></li>
 <li>De que outras series voce gosta?</li>
 </random>
 </template>
+
 </category>
 
 <category>
