@@ -120,8 +120,20 @@
 <template><think><set name="topic">black mirror</set></think><srai><star index="1"/>black mirror</srai></template>
 </category>
 
+<category>
+<pattern>DRAMA</pattern>
+<template>Eu assisto muitas series de drama. Voce gosta?</template>
+</category>
 
+<category>
+<pattern>COMEDIA</pattern>
+<template>Ja vi algumas series de comedia. Voce gosta?</template>
+</category>
 
+<category>
+<pattern>TERROR</pattern>
+<template>Nao gosto muito de series de terror. O que voce acha?</template>
+</category>
 
 <!-- THAT PERGUNTAS DO ROBOT -->		
 

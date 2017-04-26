@@ -38,10 +38,40 @@
 </template>
 </category>
 
+<category>
+<pattern>_ DRAMA</pattern>
+<template><srai>DRAMA</srai></template>
+</category>
+
+<category>
+<pattern>_ DRAMA _</pattern>
+<template><srai>DRAMA</srai></template>
+</category>
+
+<category>
+<pattern>_ COMEDIA</pattern>
+<template><srai>COMEDIA</srai></template>
+</category>
+
+<category>
+<pattern>_ COMEDIA _</pattern>
+<template><srai>COMEDIA</srai></template>
+</category>
+
+<category>
+<pattern>_ TERROR</pattern>
+<template><srai>TERROR</srai></template>
+</category>
+
+<category>
+<pattern>_ TERROR _</pattern>
+<template><srai>TERROR</srai></template>
+</category>
+
 <!-- * SERIE FAVORITA -->
 	<!-- DEXTER -->
 	<category>
-	<pattern>* DEXTER *</pattern>
+	<pattern>_ DEXTER _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>DEXTER</srai>
@@ -49,7 +79,7 @@
 	</category>
 
 	<category>
-	<pattern>DEXTER *</pattern>
+	<pattern>DEXTER _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>DEXTER</srai>
@@ -57,7 +87,7 @@
 	</category>
 
 	<category>
-	<pattern>* DEXTER</pattern>
+	<pattern>_ DEXTER</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>DEXTER</srai>
@@ -66,7 +96,7 @@
 
 	<!-- FRIENDS -->
 	<category>
-	<pattern>* FRIENDS *</pattern>
+	<pattern>_ FRIENDS _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>FRIENDS</srai>
@@ -74,7 +104,7 @@
 	</category>
 
 	<category>
-	<pattern>* FRIENDS</pattern>
+	<pattern>_ FRIENDS</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>FRIENDS</srai>
@@ -82,7 +112,7 @@
 	</category>
 
 	<category>
-	<pattern>FRIENDS *</pattern>
+	<pattern>FRIENDS _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>FRIENDS</srai>
@@ -91,7 +121,7 @@
 
 	<!-- BREAKING BAD -->
 	<category>
-	<pattern>* BREAKING BAD *</pattern>
+	<pattern>_ BREAKING BAD _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>BREAKING BAD</srai>
@@ -99,7 +129,7 @@
 	</category>
 
 	<category>
-	<pattern>BREAKING BAD *</pattern>
+	<pattern>BREAKING BAD _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>BREAKING BAD</srai>
@@ -107,7 +137,7 @@
 	</category>
 
 	<category>
-	<pattern>* BREAKING BAD</pattern>
+	<pattern>_ BREAKING BAD</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>BREAKING BAD</srai>
@@ -116,7 +146,7 @@
 
 	<!-- SHERLOCK -->
 	<category>
-	<pattern>* SHERLOCK *</pattern>
+	<pattern>_ SHERLOCK _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>SHERLOCK</srai>
@@ -124,7 +154,7 @@
 	</category>
 
 	<category>
-	<pattern>SHERLOCK *</pattern>
+	<pattern>SHERLOCK _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>SHERLOCK</srai>
@@ -132,7 +162,7 @@
 	</category>
 
 	<category>
-	<pattern>* SHERLOCK</pattern>
+	<pattern>_ SHERLOCK</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>SHERLOCK</srai>
@@ -141,7 +171,7 @@
 
 	<!-- VIKINGS -->
 	<category>
-	<pattern>* VIKINGS *</pattern>
+	<pattern>_ VIKINGS _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>VIKINGS</srai>
@@ -149,7 +179,7 @@
 	</category>
 
 	<category>
-	<pattern>* VIKINGS</pattern>
+	<pattern>_ VIKINGS</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>VIKINGS</srai>
@@ -157,7 +187,7 @@
 	</category>
 
 	<category>
-	<pattern>VIKINGS *</pattern>
+	<pattern>VIKINGS _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>VIKINGS</srai>
@@ -166,7 +196,7 @@
 
 	<!-- BLACK MIRROR -->
 	<category>
-	<pattern>* BLACK MIRROR *</pattern>
+	<pattern>_ BLACK MIRROR _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>BLACK MIRROR</srai>
@@ -174,7 +204,7 @@
 	</category>
 
 	<category>
-	<pattern>* BLACK MIRROR</pattern>
+	<pattern>_ BLACK MIRROR</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>BLACK MIRROR</srai>
@@ -182,10 +212,137 @@
 	</category>
 
 	<category>
-	<pattern>BLACK MIRROR *</pattern>
+	<pattern>BLACK MIRROR _</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>
 	<srai>BLACK MIRROR</srai>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>_ DEXTER _</pattern>
+	<template>
+	<set name = "topic">dexter</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>_ DEXTER</pattern>
+	<template>
+	<set name = "topic">dexter</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>DEXTER _</pattern>
+	<template>
+	<set name = "topic">dexter</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>SHERLOCK _</pattern>
+	<template>
+	<set name = "topic">sherlock</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern> _ SHERLOCK _</pattern>
+	<template>
+	<set name = "topic">sherlock</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>_ SHERLOCK</pattern>
+	<template>
+	<set name = "topic">sherlock</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>FRIENDS _</pattern>
+	<template>
+	<set name = "topic">friends</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>_ FRIENDS _</pattern>
+	<template>
+	<set name = "topic">friends</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>_ FRIENDS </pattern>
+	<template>
+	<set name = "topic">friends</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>BLACK MIRROR _</pattern>
+	<template>
+	<set name = "topic">black mirror</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>_ BLACK MIRROR _</pattern>
+	<template>
+	<set name = "topic">black mirror</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>_ BLACK MIRROR</pattern>
+	<template>
+	<set name = "topic">black mirror</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>BREAKING BAD _</pattern>
+	<template>
+	<set name = "topic">breaking bad</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>_ BREAKING BAD _</pattern>
+	<template>
+	<set name = "topic">breaking bad</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>_ BREAKING BAD</pattern>
+	<template>
+	<set name = "topic">breaking bad</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>VIKINGS_</pattern>
+	<template>
+	<set name = "topic">vikings</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>_ VIKINGS _</pattern>
+	<template>
+	<set name = "topic">vikings</set>?
+	</template>
+	</category>
+
+	<category>
+	<pattern>_ VIKINGS</pattern>
+	<template>
+	<set name = "topic">vikings</set>?
 	</template>
 	</category>
 
