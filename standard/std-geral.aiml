@@ -134,7 +134,6 @@
 	<that>* QUAL A SUA SERIE FAVORITA</that>
 	<template>Eu e meus amigos adoramos Vikings!<think><set name = "topic">vikings</set></think></template>
 </category>
-
 <category>
 	<pattern>BLACK MIRROR</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
