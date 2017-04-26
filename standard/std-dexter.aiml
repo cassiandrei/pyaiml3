@@ -127,8 +127,8 @@ Dexter e uma serie de drama.
 <template><condition name="lastdexter">
 <li value="1">Voce sabe o nome do barco do Dexter? <think><set name="lastdexter">2</set></think></li>
 <li value="2">Sabia que o Michael C. Hall foi indicado cinco vezes ao Globo de Ouro como melhor ator de drama por Dexter?<think><set name="lastdexter">3</set></think></li>
-<li value="3">De que outras series voce gosta?<think><set name="lastdexter">1</set></think></li>
-<li>Voce sabe como era chamado o serial killer procurado pela policia de Miami na segunda temporada da serie?</li>
+<li value="3">De que outras series voce gosta?<think><set name="lastdexter">4</set></think></li>
+<li>Voce sabe como era chamado o serial killer procurado pela policia de Miami na segunda temporada da serie?<think><set name="lastdexter">1</set></think></li>
 </condition></template>
 </category>
 
