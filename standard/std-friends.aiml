@@ -111,4 +111,12 @@
 	</template>
 </category>
 
+
+<category>
+	<pattern>TEMPORADAS</pattern>
+	<template>
+		Friends possui 10 temporadas.
+	</template>
+</category>
+
 </aiml>
