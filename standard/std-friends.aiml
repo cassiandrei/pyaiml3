@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<!--
+<category>
+	<pattern>conhece a serie friends?</pattern>
+	<template>
+		<srai>Conheço sim, adoro essa serie, o que você sabe sobre ela?<set name="topic"> friends</set></srai>
+	</template>
+</category>
+-->
+
+<category>
+	<pattern>CONHECE * FRIENDS</pattern>
+	<template>
+		Conheco sim, adoro essa serie, o que voce sabe sobre ela?
+	</template>
+</category>
+
+<category>
+	<pattern>* ROSS</pattern>
+	<template>
+		O personagem Ross é um paleantologo que se divorciou 3 vezes. Eh muito inteligente e eh apaixonado por Rachel desde o colegial.
+	</template>
+</category>
+
+<category>
+	<pattern>* JOEY</pattern>
+	<template>
+		Joey eh um famoso ator conhecido pelo seu papel em 'Days of our lives' como Dr. Drake Ramoray. Possui um racioncinio lento, adora comer e conquista todas as mulheres que aparecem em sua frente com sua famosa frase 'How you doing?'.
+	</template>
+</category>
+
+<category>
+	<pattern>* CHANDLER</pattern>
+	<template>
+		Chandler eh o personagem mais comico da serie, conhecido pelo seu humor sarcastico. Casa-se com Monica e adota um filho.
+	</template>
+</category>
+
+<category>
+	<pattern>* PHOEBE</pattern>
+	<template>
+		A personagem Phoebe é massagista e vegetariana. Ela ja foi moradora de rua e toca a famosa musica 'Smelly Cat'.
+	</template>
+</category>
+
+<category>
+	<pattern>* RACHEL</pattern>
+	<template>
+		A personagem Rachel ja foi rica e mimada, porem amadurece e vira independente. Ja trabalhou como garconete e vendedora de roupas. Casa-se com Ross e teve um filha.
+	</template>
+</category>
+
+<category>
+	<pattern>* EMMA</pattern>
+	<template>
+		Emma eh filha de Ross e Rachel.
+	</template>
+</category>
+
+<category>
+	<pattern>* MONICA</pattern>
+	<template>
+		Monica eh uma personagem com espirito competitivo e possui uma compulsao por limpeza. Durante sua adolescencia era obesa, e por fim se torna uma chef de cozinha.
+	</template>
+</category>
+
+<category>
+	<pattern>GOSTA * FRIENDS</pattern>
+	<template>
+		Sim! Eu adoro esta serie!
+	</template>
+</category>
+
+<category>
+	<pattern>QUANDO * FRIENDS</pattern>
+	<template>
+		Em 22 de setembro 1994 ate 6 de maio de 2004. 
+	</template>
+</category>
+
+<category>
+	<pattern>* MELHOR TEMPORADA</pattern>
+	<template>
+		Eu gostei mais da 9.
+	</template>
+</category>
+
+
+<category>
+	<pattern>* CRIOU</pattern>
+	<template>
+		David Crane e Marta Kauffman.
+	</template>
+</category>
+
+
+<category>
+	<pattern>* EMISSORA *</pattern>
+	<template>
+		NBC.
+	</template>
+</category>
+
+
+<category>
+	<pattern>* ABERTURA</pattern>
+	<template>
+		A musica de abertura eh da banda The Rembrandts, cujo nome eh 'I'll be there for you'.
+	</template>
+</category>
+
+</aiml>
