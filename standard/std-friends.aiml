@@ -239,12 +239,6 @@
 </category>
 </topic>
 
-<!--<category>
-	<pattern>* OUTRA SERIE</pattern>
-	<template><think><set name="topic"> </set></think><srai><star/></srai>
-	</template>
-</category>
-</topic> -->
 
 
 </aiml>

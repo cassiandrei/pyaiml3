@@ -189,30 +189,6 @@ Black Mirror e uma serie de drama e sci-fi.
 <template><srai>TEMPORADAS</srai></template>
 </category>
 
-<category>
-<pattern>GOSTA *</pattern>
-<template><random>
-<li>Eu adoro o <star/></li>
-<li>Quem nao gosta do <star/>?</li>
-<li>Por que? Voce não gosta do <star/>?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>* GOSTA DO *</pattern>
-<template><srai>GOSTA <star index="2"/></srai></template>
-</category>
-
-<category>
-<pattern>* GOSTA DA *</pattern>
-<template><srai>GOSTA <star index="2"/></srai></template>
-</category>
-
-<category>
-<pattern>TU *</pattern>
-<template><srai>VOCE <star/></srai></template>
-</category>
-
 
 </topic>
 
