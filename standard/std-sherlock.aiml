@@ -128,8 +128,9 @@ Sherlock e uma serie de drama.
 <condition name="sherlock1" value="1"><li><set name="sherlock1" value="1"></set>Quem eh o parceiro fiel do Sherlock?</li></condition>
 <condition name="sherlock2" value="1"><li><set name="sherlock2" value="1"></set>Qual o nome da mafia que leva a marca de tong nos pes?</li></condition>
 <condition name="sherlock3" value="1"><li><set name="sherlock3" value="1"></set>Sabe quem eh o criador da serie?</li></condition>
+</random>
 <li>De que outras series voce gosta?</li>
-</random></template>
+</template>
 </category>
 
 <category>
