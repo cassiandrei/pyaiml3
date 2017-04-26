@@ -79,12 +79,27 @@
 <category>
 	<pattern>* ROSS</pattern>
 	<template>
-		O personagem Ross é um paleantologo que se divorciou 3 vezes. Eh muito inteligente e eh apaixonado por Rachel desde o colegial.
+		O personagem Ross eh um paleantologo que se divorciou 3 vezes. Eh muito inteligente e eh apaixonado por Rachel desde o colegial.
+	</template>
+</category>
+
+<category>
+	<pattern>ROSS</pattern>
+	<template>
+		O personagem Ross eh um paleantologo que se divorciou 3 vezes. Eh muito inteligente e eh apaixonado por Rachel desde o colegial.
 	</template>
 </category>
 
 <category>
 	<pattern>* JOEY</pattern>
+	<template>
+		Joey eh um famoso ator conhecido pelo seu papel em 'Days of our lives' como Dr. Drake Ramoray. Possui um racioncinio lento, adora comer e conquista todas as mulheres que aparecem em sua frente com sua famosa frase 'How you doing?'.
+	</template>
+</category>
+
+
+<category>
+	<pattern>JOEY</pattern>
 	<template>
 		Joey eh um famoso ator conhecido pelo seu papel em 'Days of our lives' como Dr. Drake Ramoray. Possui um racioncinio lento, adora comer e conquista todas as mulheres que aparecem em sua frente com sua famosa frase 'How you doing?'.
 	</template>
@@ -97,8 +112,24 @@
 	</template>
 </category>
 
+
+<category>
+	<pattern>CHANDLER</pattern>
+	<template>
+		Chandler eh o personagem mais comico da serie, conhecido pelo seu humor sarcastico. Casa-se com Monica e adota um filho.
+	</template>
+</category>
+
 <category>
 	<pattern>* PHOEBE</pattern>
+	<template>
+		A personagem Phoebe é massagista e vegetariana. Ela ja foi moradora de rua e toca a famosa musica 'Smelly Cat'.
+	</template>
+</category>
+
+
+<category>
+	<pattern>PHOEBE</pattern>
 	<template>
 		A personagem Phoebe é massagista e vegetariana. Ela ja foi moradora de rua e toca a famosa musica 'Smelly Cat'.
 	</template>
@@ -111,6 +142,14 @@
 	</template>
 </category>
 
+
+<category>
+	<pattern>RACHEL</pattern>
+	<template>
+		A personagem Rachel ja foi rica e mimada, porem amadurece e vira independente. Ja trabalhou como garconete e vendedora de roupas. Casa-se com Ross e teve um filha.
+	</template>
+</category>
+
 <category>
 	<pattern>* EMMA</pattern>
 	<template>
@@ -118,8 +157,24 @@
 	</template>
 </category>
 
+
+<category>
+	<pattern>EMMA</pattern>
+	<template>
+		Emma eh filha de Ross e Rachel.
+	</template>
+</category>
+
 <category>
 	<pattern>* MONICA</pattern>
+	<template>
+		Monica eh uma personagem com espirito competitivo e possui uma compulsao por limpeza. Durante sua adolescencia era obesa, e por fim se torna uma chef de cozinha.
+	</template>
+</category>
+
+
+<category>
+	<pattern>MONICA</pattern>
 	<template>
 		Monica eh uma personagem com espirito competitivo e possui uma compulsao por limpeza. Durante sua adolescencia era obesa, e por fim se torna uma chef de cozinha.
 	</template>
@@ -176,6 +231,20 @@
 		Friends possui 10 temporadas.
 	</template>
 </category>
+
+<category>
+	<pattern>* DEXTER</pattern>
+	<template><think><set name="topic">dexter</set></think><srai><star/></srai>
+	</template>
+</category>
 </topic>
+
+<!--<category>
+	<pattern>* OUTRA SERIE</pattern>
+	<template><think><set name="topic"> </set></think><srai><star/></srai>
+	</template>
+</category>
+</topic> -->
+
 
 </aiml>
