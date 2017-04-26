@@ -13,7 +13,7 @@
 <category>
 <pattern>NAO</pattern>
 <that>* JA ASSISTIU SHERLOCK</that>
-<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
+<template>Recomendo assistir, eh muito legal. <think><set name="topic"> </set></think></template>
 </category>
 
 <category>
@@ -130,7 +130,6 @@ Sherlock e uma serie de drama.
 <condition name="sherlock3" value="1"><li><set name="sherlock3" value="1"></set>Sabe quem eh o criador da serie?</li></condition>
 <li>De que outras series voce gosta?</li>
 </random></template>
-</category>
 
 <category>
 <pattern>*</pattern>

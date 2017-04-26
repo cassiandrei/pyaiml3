@@ -6,7 +6,7 @@
 <pattern>INTRO</pattern>
 <template>
 <random>
-	<li><srai>aaa</srai></li>
+	<li>Voce tem outra serie favorita?</li>
 </random>
 </template>
 </category>

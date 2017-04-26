@@ -13,7 +13,7 @@
 <category>
 <pattern>NAO</pattern>
 <that>* JA ASSISTIU BLACK MIRROR</that>
-<template>Por que nao?. <think><set name="topic"> </set></think><srai>SERIE</srai></template>
+<template>Por que nao?. <think><set name="topic"> </set></think></template>
 </category>
 
 <category>

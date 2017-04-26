@@ -13,7 +13,7 @@
 <category>
 <pattern>NAO</pattern>
 <that>* JA ASSISTIU VIKINGS</that>
-<template>Assista agora! <think><set name="topic"> </set></think><srai>SERIE</srai></template>
+<template>Assista agora! <think><set name="topic"> </set></think></template>
 </category>
 
 <category>
