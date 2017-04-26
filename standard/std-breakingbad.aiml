@@ -2,18 +2,18 @@
 
 <aiml version="1.0">
 
-<topic name="dexter">
+<topic name="breakingbad">
 
 <category>
 <pattern>_ GENERO *</pattern>
 <template>
-Dexter e uma serie de drama.
+Breaking Bad e uma serie de drama.
 </template>
 </category>
 
 <category>
 <pattern>SINOPSE</pattern>
-<template>A serie eh sobre Dexter, um serial killer que mata pessoas ruins enquanto trabalha na policia de Miami.</template>
+<template>A serie eh sobre um professor de quimica que descobre que esta com cancer e decide fabricar drogas para juntar dinheiro para sua familia.</template>
 </category>
 
 <category>
@@ -48,27 +48,27 @@ Dexter e uma serie de drama.
 
 <category>
 <pattern>GENERO</pattern>
-<template>Dexter eh uma serie dramatica.</template>
+<template>Breaking Bad eh uma serie de drama.</template>
 </category>
 
 <category>
-<pattern>_ GENERO _</pattern>
+<pattern>* GENERO *</pattern>
 <template><srai>GENERO</srai></template>
 </category>
 
 <category>
-<pattern>GENERO _</pattern>
+<pattern>GENERO *</pattern>
 <template><srai>GENERO</srai></template>
 </category>
 
 <category>
-<pattern>_ GENERO</pattern>
+<pattern>* GENERO</pattern>
 <template><srai>GENERO</srai></template>
 </category>
 
 <category>
 <pattern>CANAL</pattern>
-<template>A serie passa no canal Showtime.</template>
+<template>A serie passa no canal AXN.</template>
 </category>
 
 <category>
@@ -89,9 +89,8 @@ Dexter e uma serie de drama.
 <category>
 <pattern>*</pattern>
 <template><random>
-<li>Voce sabe o nome do barco do Dexter?</li>
-<li>Sabia que o Michael C. Hall foi indicado cinco vezes ao Globo de Ouro como melhor ator de drama por Dexter?</li>
-<li>Voce sabe como era chamado o serial killer procurado pela policia de Miami na segunda temporada da serie?</li>
+<li>Voce sabe qual eh a droga que eles produzem?</li>
+<li>Como Hank descobre que Walter era Heisenberg?</li>
 <li>De que outras series voce gosta?</li>
 </random></template>
 </category>
@@ -103,25 +102,46 @@ Dexter e uma serie de drama.
 </category>
 
 <category>
-<pattern>_ BARCO _</pattern>
-<template>O nome do barco do Dexter eh Slice of Life.</template>
+<pattern>LIVRO</pattern>
+<that>COMO HANK DESCOBRE QUE WALTER ERA HEISENBERG</that>
+<template>Sim, ele achou um livro na casa de Walt!</template>
 </category>
 
 <category>
-<pattern>SLICE OF LIFE</pattern>
-<that>VOCE SABE O NOME DO BARCO DO DEXTER</that>
+<pattern>* LIVRO</pattern>
+<that>COMO HANK DESCOBRE QUE WALTER ERA HEISENBERG</that>
+<template>Sim, ele achou um livro na casa de Walt!</template>
+</category>
+
+<category>
+<pattern>LIVRO *</pattern>
+<that>COMO HANK DESCOBRE QUE WALTER ERA HEISENBERG</that>
+<template>Sim, ele achou um livro na casa de Walt!</template>
+</category>
+
+<category>
+<pattern>* LIVRO *</pattern>
+<that>COMO HANK DESCOBRE QUE WALTER ERA HEISENBERG</that>
+<template>Sim, ele achou um livro na casa de Walt!</template>
+</category>
+
+
+
+<category>
+<pattern>METANFETAMINA ^</pattern>
+<that>VOCE SABE QUAL EH A DROGA QUE ELES PRODUZEM</that>
 <template>Acertou, parabens!</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>VOCE SABE O NOME DO BARCO DO DEXTER</that>
-<template>O nome do barco eh Slice of Life.</template>
+<that>VOCE SABE QUAL EH A DROGA QUE ELES PRODUZEM</that>
+<template>Eles produzem metanfetamina.</template>
 </category>
 
 <category>
 <pattern>PERSONAGEM</pattern>
-<template>Gosto muito da Debra. E voce?</template>
+<template>Meu personagem favorito eh o Jesse. E o seu?</template>
 </category>
 
 <category>
@@ -141,7 +161,7 @@ Dexter e uma serie de drama.
 
 <category>
 <pattern>ATORES</pattern>
-<template>Alguns atores da serie sao Michael C. Hall, Jennifer Carpenter e David Zayas.</template>
+<template>Alguns atores da serie sao Bryan Cranston, Aaron Paul e Anna Gunn.</template>
 </category>
 
 <category>
@@ -151,7 +171,7 @@ Dexter e uma serie de drama.
 
 <category>
 <pattern>TEMPORADAS</pattern>
-<template>Dexter tem 8 temporadas.</template>
+<template>Breaking Bad tem 5 temporadas.</template>
 </category>
 
 <category>
