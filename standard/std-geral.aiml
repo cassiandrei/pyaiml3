@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
 
-   <category>
-      <pattern> OLA </pattern>
-      <template>
-         <random>
-		<li><think><set name="topic">geral</set></think>Ola, qual o seu nome?</li>
-	 </random>
-      </template>
-   </category>
+<category>
+<pattern> OLA </pattern>
+<template>
+ <random>
+	<li>Ola, qual o seu nome?</li>
+ </random>
+</template>
+</category>
+
+<category>
+<pattern>TAMBEM</pattern>
+<template>Que coincidencia!</template>
+</category>
 
 <!-- THATS -->
 <category>
@@ -18,28 +23,15 @@
 </category>
 
 <category>
-<pattern>TAMBEM</pattern>
-<template>Que coincidencia!</template>
+	<pattern>* SERIE NOVA</pattern>
+	<template><srai>SERIE</srai></template>
 </category>
 
 <category>
-<pattern>* TAMBEM</pattern>
-<template><srai>TAMBEM</srai></template>
-</category>
-<category>
-<pattern>TAMBEM *</pattern>
-<template><srai>TAMBEM</srai></template>
-</category>
-<category>
-<pattern>* TAMBEM *</pattern>
-<template><srai>TAMBEM</srai></template>
+	<pattern>* OUTRA SERIE</pattern>
+	<template><srai>SERIE</srai></template>
 </category>
 
-<category>
-	<pattern></pattern>
-	<that></that>
-	<template></template>
-</category>
 
 
 <!-- PERGUNTAS DO ROBOT SOBRE SERIE -->
@@ -56,8 +48,8 @@
 </category>
 
 <category>
-	<pattern>QUAL A SUA SERIE FAVORITA</pattern>
-	<template></template>
+	<pattern>* SERIE FAVORITA</pattern>
+	<template><srai>SERIE</srai></template>
 </category>
 
 <category>
@@ -79,6 +71,33 @@
 <pattern>* DEXTER *</pattern>
 <template><think><set name="topic">dexter</set></think><srai><star index="1"/> Dexter</srai></template>
 </category>
+
+<category>
+<pattern>* SHERLOCK *</pattern>
+<template><think><set name="topic">sherlock</set></think><srai><star index="1"/> sherlock</srai></template>
+</category>
+
+<category>
+<pattern>* FRIENDS *</pattern>
+<template><think><set name="topic">friends</set></think><srai><star index="1"/> friends</srai></template>
+</category>
+
+<category>
+<pattern>* BREAKING BAD *</pattern>
+<template><think><set name="topic">breaking bad</set></think><srai><star index="1"/> breaking bad</srai></template>
+</category>
+
+<category>
+<pattern>* VIKINGS *</pattern>
+<template><think><set name="topic">vikings</set></think><srai><star index="1"/>vikings</srai></template>
+</category>
+
+<category>
+<pattern>* BLACK MIRROR *</pattern>
+<template><think><set name="topic">black mirror</set></think><srai><star index="1"/>black mirror</srai></template>
+</category>
+
+
 
 
 <!-- THAT PERGUNTAS DO ROBOT -->

@@ -2,6 +2,20 @@
 
 <aiml version="1.0">
 
+<!-- TAMBEM -->
+<category>
+<pattern>* TAMBEM</pattern>
+<template><srai>TAMBEM</srai></template>
+</category>
+<category>
+<pattern>TAMBEM *</pattern>
+<template><srai>TAMBEM</srai></template>
+</category>
+<category>
+<pattern>* TAMBEM *</pattern>
+<template><srai>TAMBEM</srai></template>
+</category>
+
 <!-- OLA -->
 <category>
 <pattern> OLA *</pattern>
@@ -24,93 +38,105 @@
 </template>
 </category>
 
+<!-- * SERIE FAVORITA -->
+	<!-- DEXTER -->
+	<category>
+	<pattern>* DEXTER *</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>DEXTER<srai>
+	</template>
+	</category>
 
-<!-- DEXTER -->
-<category>
-<pattern>* DEXTER *</pattern>
-<template>
-<srai>DEXTER<srai>
-</template>
-</category>
+	<category>
+	<pattern>DEXTER *</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>DEXTER<srai>
+	</template>
+	</category>
 
-<category>
-<pattern>DEXTER *</pattern>
-<template>
-<srai>DEXTER<srai>
-</template>
-</category>
+	<category>
+	<pattern>* DEXTER</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>DEXTER<srai>
+	</template>
+	</category>
 
-<category>
-<pattern>* DEXTER</pattern>
-<template>
-<srai>DEXTER<srai>
-</template>
-</category>
+	<!-- FRIENDS -->
+	<category>
+	<pattern>* FRIENDS *</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>FRIENDS<srai>
+	</template>
+	</category>
 
-<!-- FRIENDS -->
-<category>
-<pattern>* FRIENDS *</pattern>
-<template>
-<srai>FRIENDS<srai>
-</template>
-</category>
+	<category>
+	<pattern>* FRIENDS</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>FRIENDS<srai>
+	</template>
+	</category>
 
-<category>
-<pattern>* FRIENDS</pattern>
-<template>
-<srai>FRIENDS<srai>
-</template>
-</category>
+	<category>
+	<pattern>FRIENDS *</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>FRIENDS<srai>
+	</template>
+	</category>
 
-<category>
-<pattern>FRIENDS *</pattern>
-<template>
-<srai>FRIENDS<srai>
-</template>
-</category>
+	<!-- BREAKING BAD -->
+	<category>
+	<pattern>* BREAKING BAD *</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>BREAKING BAD<srai>
+	</template>
+	</category>
 
-<!-- BREAKING BAD -->
-<category>
-<pattern>* BREAKING BAD *</pattern>
-<template>
-<srai>BREAKING BAD<srai>
-</template>
-</category>
+	<category>
+	<pattern>BREAKING BAD *</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>BREAKING BAD<srai>
+	</template>
+	</category>
 
-<category>
-<pattern>BREAKING BAD *</pattern>
-<template>
-<srai>BREAKING BAD<srai>
-</template>
-</category>
+	<category>
+	<pattern>* BREAKING BAD</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>BREAKING BAD<srai>
+	</template>
+	</category>
 
-<category>
-<pattern>* BREAKING BAD</pattern>
-<template>
-<srai>BREAKING BAD<srai>
-</template>
-</category>
+	<!-- SHERLOCK -->
+	<category>
+	<pattern>* SHERLOCK *</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>SHERLOCK<srai>
+	</template>
+	</category>
 
-<!-- SHERLOCK -->
-<category>
-<pattern>* SHERLOCK *</pattern>
-<template>
-<srai>SHERLOCK<srai>
-</template>
-</category>
+	<category>
+	<pattern>SHERLOCK *</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>SHERLOCK<srai>
+	</template>
+	</category>
 
-<category>
-<pattern>SHERLOCK *</pattern>
-<template>
-<srai>SHERLOCK<srai>
-</template>
-</category>
-
-<category>
-<pattern>* SHERLOCK</pattern>
-<template>
-<srai>SHERLOCK<srai>
-</template>
-</category>
+	<category>
+	<pattern>* SHERLOCK</pattern>
+	<that>* QUAL A SUA SERIE FAVORITA</that>
+	<template>
+	<srai>SHERLOCK<srai>
+	</template>
+	</category>
 
 </aiml>
