@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-
 <aiml version="1.0">
-
+<topic name="GERAL">
    <category>
       <pattern> OLA * </pattern>
       <template>
@@ -67,8 +66,8 @@
 <category>
 	<pattern>*</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
-	<template>Eu nao conheco essa serie!<think><set name = "topic">dexter</set></think><srai>TESTE</srai></template>
+	<template>Eu nao conheco essa serie! <think><set name = "topic">none</set></think><srai>INTRO</srai></template>
 </category>
 
-
+</topic>
 </aiml>

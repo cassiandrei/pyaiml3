@@ -3,10 +3,12 @@
 <aiml version="1.0">
 <topic name="NONE">
 <category>
-	<pattern>TESTE</pattern>
-		<template>
-			TESTE CONCLUIDO
-		</template>
+<pattern>INTRO</pattern>
+<template>
+<random>
+	<li></li>
+</random>
+</template>
 </category>
 
 
