@@ -6,7 +6,7 @@
 <pattern>INTRO</pattern>
 <template>
 <random>
-	<li></li>
+	<li><srai>aaa</srai></li>
 </random>
 </template>
 </category>
