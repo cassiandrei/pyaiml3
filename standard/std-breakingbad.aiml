@@ -2,7 +2,7 @@
 
 <aiml version="1.0">
 
-<topic name="breakingbad">
+<!--<topic name="breakingbad">-->
 
 <category>
 <pattern>_ GENERO *</pattern>
@@ -91,6 +91,8 @@ Breaking Bad e uma serie de drama.
 <template><random>
 <li>Voce sabe qual eh a droga que eles produzem?</li>
 <li>Como Hank descobre que Walter era Heisenberg?</li>
+<li>Sabe quem criou a serie?</li>
+<li>Como eh o nome completo do Walter?</li>
 <li>De que outras series voce gosta?</li>
 </random></template>
 </category>
@@ -99,6 +101,60 @@ Breaking Bad e uma serie de drama.
 <pattern>*</pattern>
 <that>DE QUE OUTRAS SERIES VOCE GOSTA</that>
 <template><star/></template>
+</category>
+
+<category>
+<pattern>WALTER HARTWELL WHITE</pattern>
+<that>COMO EH O NOME COMPLETO DO WALTER</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>* WALTER HARTWELL WHITE</pattern>
+<that>COMO EH O NOME COMPLETO DO WALTER</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>WALTER HARTWELL WHITE *</pattern>
+<that>COMO EH O NOME COMPLETO DO WALTER</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>COMO EH O NOME COMPLETO DO WALTER</that>
+<template>Walter Hartwell White.</template>
+</category>
+
+<category>
+<pattern>VINCE GILLIGAN</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>VINCE GILLIGAN *</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>* VINCE GILLIGAN</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>* VINCE GILLIGAN *</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Isso mesmo. O que mais voce sabe?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>SABE QUEM CRIOU A SERIE</that>
+<template>Vince Gilligan eh o criador da serie. Achei que voce soubesse.</template>
 </category>
 
 <category>
@@ -125,16 +181,26 @@ Breaking Bad e uma serie de drama.
 <template>Sim, ele achou um livro na casa de Walt!</template>
 </category>
 
-
-
 <category>
-<pattern>METANFETAMINA ^</pattern>
+<pattern>METANFETAMINA</pattern>
 <that>VOCE SABE QUAL EH A DROGA QUE ELES PRODUZEM</that>
 <template>Acertou, parabens!</template>
 </category>
 
 <category>
-<pattern>_</pattern>
+<pattern>METANFETAMINA *</pattern>
+<that>VOCE SABE QUAL EH A DROGA QUE ELES PRODUZEM</that>
+<template>Acertou, parabens!</template>
+</category>
+
+<category>
+<pattern>* METANFETAMINA</pattern>
+<that>VOCE SABE QUAL EH A DROGA QUE ELES PRODUZEM</that>
+<template>Acertou, parabens!</template>
+</category>
+
+<category>
+<pattern>*</pattern>
 <that>VOCE SABE QUAL EH A DROGA QUE ELES PRODUZEM</that>
 <template>Eles produzem metanfetamina.</template>
 </category>
@@ -204,6 +270,6 @@ Breaking Bad e uma serie de drama.
 </category>
 
 
-</topic>
+<!--</topic>-->
 
 </aiml>
