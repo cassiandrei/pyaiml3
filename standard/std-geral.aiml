@@ -4,15 +4,30 @@
 <category>
 <pattern> OLA </pattern>
 <template>
- <random>
-	<li>Ola, qual o seu nome?</li>
- </random>
+<condition name="username">
+	<li value="">Ola, qual o seu nome?</li>
+	<li>
+		<random>
+			<li>Ola <get name="username"/>! <srai>SERIE</srai></li>
+			<li><get name="username"/>, <srai>*</srai></li>
+		</random>
+	</li>
+</condition>
 </template>
 </category>
 
 <category>
 <pattern>TAMBEM</pattern>
 <template>Que coincidencia!</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>
+	<random>
+		<li><srai>SERIE</srai></li>
+	</random>
+</template>
 </category>
 
 <!-- THATS -->
@@ -103,7 +118,8 @@
 
 
 
-<!-- THAT PERGUNTAS DO ROBOT -->
+<!-- THAT PERGUNTAS DO ROBOT -->		
+
 <category>
 	<pattern>DEXTER</pattern>
 	<that>* QUAL A SUA SERIE FAVORITA</that>
