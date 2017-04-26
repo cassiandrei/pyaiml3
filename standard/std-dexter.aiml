@@ -164,7 +164,7 @@ Dexter e uma serie de drama.
 <template><random>
 <li>Eu adoro o <star/></li>
 <li>Quem nao gosta do <star/>?</li>
-<li>Por que? Voce não gosta do <star/></li>
+<li>Por que? Voce não gosta do <star/>?</li>
 </random></template>
 </category>
 
